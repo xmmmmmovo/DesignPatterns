@@ -22,25 +22,25 @@ class BookShelf<T> constructor(
         return bookList.add(t)
     }
 
-    fun getBookAt(idx: Int): T? {
-        if (idx > size - 1) return null
+    fun getBookAt(idx: Int): T {
         return bookList[idx]
     }
 
     override fun iterator(): Iterator<T> {
-        return BookShelfIterator()
+        return BookShelfIterator(this)
     }
 
     private open inner class BookShelfIterator constructor(
-
+        private var shelf: BookShelf<T>,
+        private var index: Int = 0
     ) : Iterator<T> {
         override fun hasNext(): Boolean {
-            TODO("Not yet implemented")
+            if (index < bookList.size) return true
+            return false
         }
 
         override fun next(): T {
-            TODO("Not yet implemented")
+            return shelf.getBookAt(index).also { index++ }
         }
-
     }
 }
