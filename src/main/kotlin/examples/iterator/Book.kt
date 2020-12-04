@@ -2,7 +2,7 @@
  * Copyright (c) xmmmmmovo 2020.
  */
 
-package iterator_test
+package examples.iterator
 
 data class Book(
     val name: String = ""

@@ -4,6 +4,8 @@
 
 package iterator_test
 
+import examples.iterator.Book
+import examples.iterator.BookShelf
 import org.junit.jupiter.api.AfterAll
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test
