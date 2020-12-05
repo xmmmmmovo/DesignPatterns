@@ -42,6 +42,7 @@ internal class IteratorTest {
     @Test
     fun getBook() {
         assertEquals(Book("A"), bs.getBookAt(0))
+        assertEquals("B", bs.getBookAt(1).name)
     }
 
     @Test
