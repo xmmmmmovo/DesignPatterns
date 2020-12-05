@@ -54,8 +54,8 @@ jobs:
       # 生成文档
       - name: Generate documentation
         run: ./gradlew dokka
-      - name: cp cname
-        run: cp ./build/dokka/* ./docs/docs/
+      - name: mv
+        run: mv ./build/dokka/doc/* ./docs/docs
 
       - name: Use Node.js
         uses: actions/setup-node@master

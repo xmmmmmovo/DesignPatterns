@@ -45,7 +45,7 @@ compileTestKotlin {
 // 生成文档
 dokka {
     // 样式
-    outputFormat = 'jekyll'
+    outputFormat = 'gfm'
     outputDirectory = "$buildDir/dokka"
     disableAutoconfiguration = false
 
