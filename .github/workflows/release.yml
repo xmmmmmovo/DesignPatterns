@@ -83,7 +83,7 @@ jobs:
           publish_dir: ./docs/docs/.vuepress/dist
 
   release:
-    name: Kotlin Documentation Generation
+    name: Kotlin Jar Generation
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Shanghai
