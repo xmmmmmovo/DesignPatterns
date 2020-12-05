@@ -49,7 +49,7 @@ internal class IteratorTest {
         val it = bs.iterator()
         assertEquals(true, it.hasNext())
         assertEquals(Book("A"), it.next())
-        assertEquals(Book("B"), it.next())
+        assertEquals("B", it.next().name)
         assertEquals(Book("C"), it.next())
         assertEquals(Book("D"), it.next())
         assertEquals(false, it.hasNext())

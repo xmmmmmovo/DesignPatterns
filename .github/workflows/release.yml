@@ -63,9 +63,8 @@ jobs:
           node-version: "12.x"
       - name: Cache node modules
         uses: actions/cache@v2
-        working-directory: ./docs
         with:
-          path: node_modules
+          path: ./docs/node_modules
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.OS }}-build-${{ env.cache-name }}-
