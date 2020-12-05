@@ -4,8 +4,8 @@
 
 package iterator_test
 
-import examples.iterator.Book
-import examples.iterator.BookShelf
+import iterator.Book
+import iterator.BookShelf
 import org.junit.jupiter.api.AfterAll
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test
@@ -15,7 +15,7 @@ import kotlin.test.assertEquals
 internal class IteratorTest {
     companion object {
         private val log = LoggerFactory.getLogger(IteratorTest::class.java)
-        val bs = BookShelf<Book>(4)
+        private val bs = BookShelf<Book>(4)
 
         @BeforeAll
         @JvmStatic

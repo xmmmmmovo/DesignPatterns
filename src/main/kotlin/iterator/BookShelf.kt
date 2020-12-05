@@ -2,10 +2,7 @@
  * Copyright (c) xmmmmmovo 2020.
  */
 
-package examples.iterator
-
-import iterator.Iterable
-import iterator.Iterator
+package iterator
 
 /**
  * 书架类
