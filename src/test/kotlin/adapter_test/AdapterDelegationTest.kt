@@ -11,7 +11,7 @@ import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test
 import org.junit.platform.commons.logging.LoggerFactory
 
-class AdapterDelegationTest {
+internal class AdapterDelegationTest {
     companion object {
         private val log = LoggerFactory.getLogger(AdapterDelegationTest::class.java)
         private val p: Print = PrintBanner("114514")

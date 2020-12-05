@@ -11,7 +11,7 @@ import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test
 import org.junit.platform.commons.logging.LoggerFactory
 
-class AdapterExternTest {
+internal class AdapterExternTest {
     companion object {
         private val log = LoggerFactory.getLogger(AdapterExternTest::class.java)
         private val p: Print = PrintBanner("114514")
