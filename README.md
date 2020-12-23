@@ -1,5 +1,5 @@
 # DesignPatterns
-[![codecov](https://codecov.io/gh/xmmmmmovo/DesignPatterns/branch/main/graph/badge.svg?token=YBKKJH8EAK)](https://codecov.io/gh/xmmmmmovo/DesignPatterns)
+![kotlin](https://img.shields.io/badge/language-kotlin-orange.svg) ![apache](https://img.shields.io/badge/license-Apache2.0-brightgreen.svg) [![codecov](https://codecov.io/gh/xmmmmmovo/DesignPatterns/branch/main/graph/badge.svg?token=YBKKJH8EAK)](https://codecov.io/gh/xmmmmmovo/DesignPatterns)
 
 设计模式
 
