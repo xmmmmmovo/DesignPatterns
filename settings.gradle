@@ -1,1 +1,3 @@
 rootProject.name = 'DesignPatterns'
+
+include ':docs'

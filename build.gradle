@@ -1,6 +1,5 @@
 plugins {
-    id "com.eden.orchidPlugin" version "0.21.0"
-    id 'org.jetbrains.kotlin.jvm' version '1.4.20'
+    id 'org.jetbrains.kotlin.jvm' version '1.4.21'
     id 'jacoco'
 }
 
@@ -18,10 +17,6 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-params:5.0.0'
     testImplementation 'org.assertj:assertj-core:3.12.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.0'
-
-    orchidRuntime "io.github.javaeden.orchid:OrchidDocs:0.21.0"
-    orchidRuntime "io.github.javaeden.orchid:OrchidKotlindoc:0.21.0"
-    orchidRuntime "io.github.javaeden.orchid:OrchidPluginDocs:0.21.0"
 }
 
 test {
@@ -44,14 +39,4 @@ compileKotlin {
 
 compileTestKotlin {
     kotlinOptions.jvmTarget = '1.8'
-}
-
-orchid {
-    theme = "Editorial"
-    version = "${project.version}"
-    baseUrl = "https://dp.fivezha.cn"
-    version = "1.0.0"
-}
-
-orchidBuild {
 }

@@ -53,15 +53,15 @@ jobs:
 
       # 生成文档
       - name: Generate documentation
-        run: ./gradlew orchidBuild
+        run: ./gradlew :docs:orchidBuild
       - name: cp cname
-        run: cp ./CNAME ./build/docs/orchid/CNAME
+        run: cp ./CNAME ./docs/build/docs/orchid/CNAME
       # 部署到ghpage
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./build/docs/orchid
+          publish_dir: ./docs/build/docs/orchid
 
   release:
     name: Kotlin Jar Generation
