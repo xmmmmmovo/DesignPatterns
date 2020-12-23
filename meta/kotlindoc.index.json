@@ -1,0 +1,19 @@
+{
+  "ownKey": "kotlindoc",
+  "childrenPages": {"kotlindoc": {
+    "ownKey": "kotlindoc",
+    "ownPages": [{
+      "reference": {
+        "path": "kotlindoc",
+        "baseUrl": "https://dp.fivezha.cn",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "https://dp.fivezha.cn/kotlindoc"
+      },
+      "description": "",
+      "title": "",
+      "content": ""
+    }]
+  }}
+}

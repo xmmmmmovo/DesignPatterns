@@ -1,0 +1,47 @@
+{
+  "ownKey": "index",
+  "childrenPages": {"kotlindoc": {
+    "ownKey": "kotlindoc",
+    "ownPages": [{
+      "reference": {
+        "path": "kotlindoc",
+        "baseUrl": "https://dp.fivezha.cn",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "https://dp.fivezha.cn/kotlindoc"
+      },
+      "description": "",
+      "title": "",
+      "content": ""
+    }]
+  }},
+  "ownPages": [
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://dp.fivezha.cn",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "https://dp.fivezha.cn"
+      },
+      "description": "",
+      "title": "Home",
+      "content": ""
+    },
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://dp.fivezha.cn",
+        "fileName": "404",
+        "extension": "html",
+        "usePrettyUrl": false,
+        "link": "https://dp.fivezha.cn/404.html"
+      },
+      "description": "",
+      "title": "Not Found",
+      "content": ""
+    }
+  ]
+}
