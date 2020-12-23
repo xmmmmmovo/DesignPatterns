@@ -54,33 +54,12 @@ jobs:
       # 生成文档
       - name: Generate documentation
         run: ./gradlew dokka
-      - name: mv
-        run: mv ./build/dokka/doc/* ./docs/docs
-
-      - name: Use Node.js
-        uses: actions/setup-node@master
-        with:
-          node-version: "12.x"
-      - name: Cache node modules
-        uses: actions/cache@v2
-        with:
-          path: ./docs/node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.OS }}-build-${{ env.cache-name }}-
-            ${{ runner.OS }}-build-
-            ${{ runner.OS }}-
-      - name: Setup Web Dependencies
-        working-directory: ./docs
-        run: |
-          npm install
-          npm run docs:build
       # 部署到ghpage
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./docs/docs/.vuepress/dist
+          publish_dir: ./build/docs/orchid
 
   release:
     name: Kotlin Jar Generation
