@@ -4,24 +4,24 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "https://dp.fivezha.cn",
+        "baseUrl": "https://username.github.io/project",
         "fileName": "",
         "extension": "html",
         "usePrettyUrl": true,
-        "link": "https://dp.fivezha.cn"
+        "link": "https://username.github.io/project"
       },
       "description": "",
       "title": "Home",
-      "content": ""
+      "content": "<h1 id=\"设计模式\"><a href=\"#设计模式\" id=\"设计模式\" class=\"anchor\"><\/a>设计模式<\/h1>\n"
     },
     {
       "reference": {
         "path": "",
-        "baseUrl": "https://dp.fivezha.cn",
+        "baseUrl": "https://username.github.io/project",
         "fileName": "404",
         "extension": "html",
         "usePrettyUrl": false,
-        "link": "https://dp.fivezha.cn/404.html"
+        "link": "https://username.github.io/project/404.html"
       },
       "description": "",
       "title": "Not Found",

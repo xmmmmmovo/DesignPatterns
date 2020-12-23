@@ -23,7 +23,7 @@
 
 
 
-<title>Home</title>
+<title>PrintBanner</title>
 
 
 <meta name="description" content="用kotlin实现设计模式">
@@ -37,6 +37,7 @@
 <link rel="stylesheet" type="text/css" href="https://username.github.io/project/Editorial/f433632e/assets/css/editorial_orchidCustomizations.css"  />
 <link rel="stylesheet" type="text/css" href="https://username.github.io/project/Editorial/f433632e/assets/css/orchidSearch.css"  />
 <link rel="stylesheet" type="text/css" href="https://username.github.io/project/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://username.github.io/project/assets/css/orchidSourceDoc.css"  />
 <!-- end:inject styles -->
 
 
@@ -50,20 +51,20 @@
 <!-- Class: com.eden.orchid.editorial.EditorialTheme -->
 
 <!-- PAGE -->
-<!-- Type: frontPage -->
-<!-- Class: com.eden.orchid.impl.generators.HomepageGenerator$Homepage -->
+<!-- Type: classes -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocPage -->
 <!-- Layout: index -->
 <!-- Resolved Layout: templates/layouts/index.peb -->
-<!-- Page Template: frontPage, page -->
-<!-- Resolved Page Template: templates/pages/page.peb -->
+<!-- Page Template: kotlindocClass, sourceDocPage, classes, page -->
+<!-- Resolved Page Template: templates/pages/sourceDocPage.peb -->
 
 <!-- RESOURCE -->
-<!-- Class: com.eden.orchid.api.resources.resource.FileResource -->
-<!-- Source Filename: homepage.md -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocResource -->
+<!-- Source Filename:  -->
 
 <!-- COMPLETE PAGE CONFIGURATION -->
 <script>
-    window.allData = {"reference":{"path":"","baseUrl":"https://username.github.io/project","fileName":"","extension":"html","usePrettyUrl":true,"link":"https://username.github.io/project"},"description":"","title":"Home"};
+    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://username.github.io/project","fileName":"adapter/delegation/printbanner","extension":"html","usePrettyUrl":true,"link":"https://username.github.io/project/kotlindoc/adapter/delegation/printbanner"},"description":"","title":"PrintBanner"};
 </script>
 
 <!-- end:debug info -->
@@ -157,7 +158,7 @@
             
             
                 <section id="pageContent">
-                    <header class="major"><h2>Home</h2></header>
+                    <header class="major"><h2>PrintBanner</h2></header>
                     <article>
                         
     <!-- start:inject components -->
@@ -166,7 +167,229 @@
             
                 
                     
-                        <h1 id="设计模式"><a href="#设计模式" id="设计模式" class="anchor"></a>设计模式</h1>
+                        <div class="sourcedoc-page orchid-sourcedoc content">
+  
+<div class="sourcedoc-section section-root section-level-1" id="PrintBanner">
+
+
+  
+
+  
+    <div class="sourcedoc-section section-element" id="e81759d9526a49bb790108b210863d846d07746a">
+      
+      <p class="sourcedoc-section section-signature">
+        <code>class PrintBanner: Print</code>
+      </p>
+
+      
+        
+    <!-- start:inject components -->
+    
+    <!-- end:inject components -->
+
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>适配器，用于讲Banner适配到Print接口
+使用委托</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="constructors">
+
+
+  
+    <h2 class="sourcedoc-section section-name">Constructors</h2>
+  
+
+  
+    <div class="sourcedoc-section section-element" id="985b0c6845905a8eccf10df710dcd7996733c02e">
+      
+      <h3 class="sourcedoc-section element-name">&lt;init&gt;</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>constructor(string: String)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="5f901fe6f1edba801c84de5beab4d10ffd39779f">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="884b53a3b7488fd87cad6a36b4a2ff8c1a931a42">
+        <td class="sourcedoc-section section-signature">
+          <code>string: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="methods">
+
+
+  
+    <h2 class="sourcedoc-section section-name">Methods</h2>
+  
+
+  
+    <div class="sourcedoc-section section-element" id="cbc12f84428f3923f5c1d3b6c60ef08be7ed1a99">
+      
+      <h3 class="sourcedoc-section element-name">printWeak</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun printWeak()</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>适配Weak接口</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="fe30724edf5d049edddae097853e7f1c5d87dcdb">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="7ff09fc4e80d6aa7295f3cfc78da434f91698c97">
+      
+      <h3 class="sourcedoc-section element-name">printStrong</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun printStrong()</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>适配接口</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="3d9df266097ad5a28fa256e9ef859d5b5cc6045a">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+</div>
+
+
+
+
+
 
                     
                 
@@ -429,6 +652,57 @@
     
     <li>
         <a href="https://username.github.io/project/kotlindoc/template">template</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+            </ul>
+        </nav>
+        
+        <nav class="menu">
+            <header class="major">
+                <h2>PrintBanner</h2>
+            </header>
+            <ul class="top-level">
+                
+                    
+    <li>
+        <span class="opener">Constructors</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#985b0c6845905a8eccf10df710dcd7996733c02e">constructor(string: String)</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+                    
+    <li>
+        <span class="opener">Methods</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#cbc12f84428f3923f5c1d3b6c60ef08be7ed1a99">fun printWeak()</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#7ff09fc4e80d6aa7295f3cfc78da434f91698c97">fun printStrong()</a>
     </li>
     
 

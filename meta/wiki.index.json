@@ -1,1 +1,101 @@
-{"ownKey": "wiki"}
+{
+  "ownKey": "wiki",
+  "childrenPages": {"wiki": {
+    "ownKey": "wiki",
+    "childrenPages": {
+      "适配器模式": {
+        "ownKey": "适配器模式",
+        "ownPages": [{
+          "reference": {
+            "path": "wiki",
+            "baseUrl": "https://username.github.io/project",
+            "fileName": "适配器模式",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://username.github.io/project/wiki/适配器模式"
+          },
+          "next": {
+            "path": "wiki",
+            "baseUrl": "https://username.github.io/project",
+            "fileName": "模板模式",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://username.github.io/project/wiki/模板模式"
+          },
+          "previous": {
+            "path": "wiki",
+            "baseUrl": "https://username.github.io/project",
+            "fileName": "迭代器模式",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://username.github.io/project/wiki/迭代器模式"
+          },
+          "description": "",
+          "title": "适配器模式",
+          "content": "<h2 id=\"适配器方法\"><a href=\"#适配器方法\" id=\"适配器方法\" class=\"anchor\"><\/a>适配器方法<\/h2>\n<p>适配器出现的原因是因为原生程序无法被直接使用，需要中间套一层用以满足新需求。<\/p>\n<p>因为开发中经常会用到现有的类，特别是当现有的类已经被充分测试正确之后，这样的话如果出现新的需求，便可以快速的对于现有类进行适配<\/p>\n<h3 id=\"继承关系的适配器\"><a href=\"#继承关系的适配器\" id=\"继承关系的适配器\" class=\"anchor\"><\/a>继承关系的适配器<\/h3>\n<h3 id=\"委托关系的适配器\"><a href=\"#委托关系的适配器\" id=\"委托关系的适配器\" class=\"anchor\"><\/a>委托关系的适配器<\/h3>\n"
+        }]
+      },
+      "迭代器模式": {
+        "ownKey": "迭代器模式",
+        "ownPages": [{
+          "reference": {
+            "path": "wiki",
+            "baseUrl": "https://username.github.io/project",
+            "fileName": "迭代器模式",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://username.github.io/project/wiki/迭代器模式"
+          },
+          "next": {
+            "path": "wiki",
+            "baseUrl": "https://username.github.io/project",
+            "fileName": "适配器模式",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://username.github.io/project/wiki/适配器模式"
+          },
+          "description": "",
+          "title": "迭代器模式",
+          "content": "<h1 id=\"迭代器模式\"><a href=\"#迭代器模式\" id=\"迭代器模式\" class=\"anchor\"><\/a>迭代器模式<\/h1>\n<ul>\n<li>next()方法：返回当前元素，并指向下一个元素<\/li>\n<li>hasNext()方法：确认接下来是否可以调用next方法<\/li>\n<\/ul>\n"
+        }]
+      },
+      "模板模式": {
+        "ownKey": "模板模式",
+        "ownPages": [{
+          "reference": {
+            "path": "wiki",
+            "baseUrl": "https://username.github.io/project",
+            "fileName": "模板模式",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://username.github.io/project/wiki/模板模式"
+          },
+          "previous": {
+            "path": "wiki",
+            "baseUrl": "https://username.github.io/project",
+            "fileName": "适配器模式",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://username.github.io/project/wiki/适配器模式"
+          },
+          "description": "",
+          "title": "模板模式",
+          "content": ""
+        }]
+      }
+    },
+    "ownPages": [{
+      "reference": {
+        "path": "",
+        "baseUrl": "https://username.github.io/project",
+        "fileName": "wiki",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "https://username.github.io/project/wiki"
+      },
+      "description": "",
+      "title": "Wiki",
+      "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"https://username.github.io/project/wiki/迭代器模式\">迭代器模式<\/a><\/li> \n   <li><a href=\"https://username.github.io/project/wiki/适配器模式\">适配器模式<\/a><\/li> \n   <li><a href=\"https://username.github.io/project/wiki/模板模式\">模板模式<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+    }]
+  }}
+}

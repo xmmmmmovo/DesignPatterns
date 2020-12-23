@@ -23,7 +23,7 @@
 
 
 
-<title>Home</title>
+<title>StringDisplay</title>
 
 
 <meta name="description" content="用kotlin实现设计模式">
@@ -37,6 +37,7 @@
 <link rel="stylesheet" type="text/css" href="https://username.github.io/project/Editorial/f433632e/assets/css/editorial_orchidCustomizations.css"  />
 <link rel="stylesheet" type="text/css" href="https://username.github.io/project/Editorial/f433632e/assets/css/orchidSearch.css"  />
 <link rel="stylesheet" type="text/css" href="https://username.github.io/project/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://username.github.io/project/assets/css/orchidSourceDoc.css"  />
 <!-- end:inject styles -->
 
 
@@ -50,20 +51,20 @@
 <!-- Class: com.eden.orchid.editorial.EditorialTheme -->
 
 <!-- PAGE -->
-<!-- Type: frontPage -->
-<!-- Class: com.eden.orchid.impl.generators.HomepageGenerator$Homepage -->
+<!-- Type: classes -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocPage -->
 <!-- Layout: index -->
 <!-- Resolved Layout: templates/layouts/index.peb -->
-<!-- Page Template: frontPage, page -->
-<!-- Resolved Page Template: templates/pages/page.peb -->
+<!-- Page Template: kotlindocClass, sourceDocPage, classes, page -->
+<!-- Resolved Page Template: templates/pages/sourceDocPage.peb -->
 
 <!-- RESOURCE -->
-<!-- Class: com.eden.orchid.api.resources.resource.FileResource -->
-<!-- Source Filename: homepage.md -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocResource -->
+<!-- Source Filename:  -->
 
 <!-- COMPLETE PAGE CONFIGURATION -->
 <script>
-    window.allData = {"reference":{"path":"","baseUrl":"https://username.github.io/project","fileName":"","extension":"html","usePrettyUrl":true,"link":"https://username.github.io/project"},"description":"","title":"Home"};
+    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://username.github.io/project","fileName":"template/stringdisplay","extension":"html","usePrettyUrl":true,"link":"https://username.github.io/project/kotlindoc/template/stringdisplay"},"description":"","title":"StringDisplay"};
 </script>
 
 <!-- end:debug info -->
@@ -157,7 +158,7 @@
             
             
                 <section id="pageContent">
-                    <header class="major"><h2>Home</h2></header>
+                    <header class="major"><h2>StringDisplay</h2></header>
                     <article>
                         
     <!-- start:inject components -->
@@ -166,7 +167,276 @@
             
                 
                     
-                        <h1 id="设计模式"><a href="#设计模式" id="设计模式" class="anchor"></a>设计模式</h1>
+                        <div class="sourcedoc-page orchid-sourcedoc content">
+  
+<div class="sourcedoc-section section-root section-level-1" id="StringDisplay">
+
+
+  
+
+  
+    <div class="sourcedoc-section section-element" id="06df96f0c3531b228506889226a10809de640b13">
+      
+      <p class="sourcedoc-section section-signature">
+        <code>class StringDisplay: AbstractDisplay</code>
+      </p>
+
+      
+        
+    <!-- start:inject components -->
+    
+    <!-- end:inject components -->
+
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="constructors">
+
+
+  
+    <h2 class="sourcedoc-section section-name">Constructors</h2>
+  
+
+  
+    <div class="sourcedoc-section section-element" id="489389fb89d4bdf73c95bb43872dec099fdb70b8">
+      
+      <h3 class="sourcedoc-section element-name">&lt;init&gt;</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>constructor(str: String)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="a79aa949e11112dc97afa9312b37bd23a5ef47ca">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="a0d8961ff7b1395d848487ab7d073df2e041ef48">
+        <td class="sourcedoc-section section-signature">
+          <code>str: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="methods">
+
+
+  
+    <h2 class="sourcedoc-section section-name">Methods</h2>
+  
+
+  
+    <div class="sourcedoc-section section-element" id="3b50d9006efcd7e34dae605b1ba39ee54af015aa">
+      
+      <h3 class="sourcedoc-section element-name">open</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun open()</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="bf3112c0d4b40e787fc4a22b57769cef6e0a2867">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="7a6daa9af17b7a515f9a739426d44b33d78ce38c">
+      
+      <h3 class="sourcedoc-section element-name">print</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun print()</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="f9f3a08d8903eb4e82a7ae17e2ade80b964c2aae">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="4c27f01d26d72614a93700ab579f81f1ee38be85">
+      
+      <h3 class="sourcedoc-section element-name">close</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun close()</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c7803c40b95953ea15afb26f35ad7cdc0c9370f7">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+</div>
+
+
+
+
+
 
                     
                 
@@ -429,6 +699,65 @@
     
     <li>
         <a href="https://username.github.io/project/kotlindoc/template">template</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+            </ul>
+        </nav>
+        
+        <nav class="menu">
+            <header class="major">
+                <h2>StringDisplay</h2>
+            </header>
+            <ul class="top-level">
+                
+                    
+    <li>
+        <span class="opener">Constructors</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#489389fb89d4bdf73c95bb43872dec099fdb70b8">constructor(str: String)</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+                    
+    <li>
+        <span class="opener">Methods</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#3b50d9006efcd7e34dae605b1ba39ee54af015aa">fun open()</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#7a6daa9af17b7a515f9a739426d44b33d78ce38c">fun print()</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#4c27f01d26d72614a93700ab579f81f1ee38be85">fun close()</a>
     </li>
     
 

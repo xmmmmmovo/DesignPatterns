@@ -23,7 +23,7 @@
 
 
 
-<title>Home</title>
+<title>iterator</title>
 
 
 <meta name="description" content="用kotlin实现设计模式">
@@ -37,6 +37,7 @@
 <link rel="stylesheet" type="text/css" href="https://username.github.io/project/Editorial/f433632e/assets/css/editorial_orchidCustomizations.css"  />
 <link rel="stylesheet" type="text/css" href="https://username.github.io/project/Editorial/f433632e/assets/css/orchidSearch.css"  />
 <link rel="stylesheet" type="text/css" href="https://username.github.io/project/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://username.github.io/project/assets/css/orchidSourceDoc.css"  />
 <!-- end:inject styles -->
 
 
@@ -50,20 +51,20 @@
 <!-- Class: com.eden.orchid.editorial.EditorialTheme -->
 
 <!-- PAGE -->
-<!-- Type: frontPage -->
-<!-- Class: com.eden.orchid.impl.generators.HomepageGenerator$Homepage -->
+<!-- Type: packages -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocPage -->
 <!-- Layout: index -->
 <!-- Resolved Layout: templates/layouts/index.peb -->
-<!-- Page Template: frontPage, page -->
-<!-- Resolved Page Template: templates/pages/page.peb -->
+<!-- Page Template: kotlindocPackage, sourceDocPage, packages, page -->
+<!-- Resolved Page Template: templates/pages/sourceDocPage.peb -->
 
 <!-- RESOURCE -->
-<!-- Class: com.eden.orchid.api.resources.resource.FileResource -->
-<!-- Source Filename: homepage.md -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocResource -->
+<!-- Source Filename:  -->
 
 <!-- COMPLETE PAGE CONFIGURATION -->
 <script>
-    window.allData = {"reference":{"path":"","baseUrl":"https://username.github.io/project","fileName":"","extension":"html","usePrettyUrl":true,"link":"https://username.github.io/project"},"description":"","title":"Home"};
+    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://username.github.io/project","fileName":"iterator","extension":"html","usePrettyUrl":true,"link":"https://username.github.io/project/kotlindoc/iterator"},"description":"","title":"iterator"};
 </script>
 
 <!-- end:debug info -->
@@ -157,7 +158,7 @@
             
             
                 <section id="pageContent">
-                    <header class="major"><h2>Home</h2></header>
+                    <header class="major"><h2>iterator</h2></header>
                     <article>
                         
     <!-- start:inject components -->
@@ -166,7 +167,110 @@
             
                 
                     
-                        <h1 id="设计模式"><a href="#设计模式" id="设计模式" class="anchor"></a>设计模式</h1>
+                        <div class="sourcedoc-page orchid-sourcedoc content">
+  
+<div class="sourcedoc-section section-root section-level-1" id="iterator">
+
+
+  
+
+  
+    <div class="sourcedoc-section section-element" id="fe0f0b6add76e4a17233312c72933d8bdecf603d">
+      
+      <p class="sourcedoc-section section-signature">
+        <code>package iterator</code>
+      </p>
+
+      
+        
+    <!-- start:inject components -->
+    
+    <!-- end:inject components -->
+
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="classes">
+
+
+  <p class="sourcedoc-section section-name"><strong>Classes</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="ef4a1045b0ad2b2625453fbf1764ae65ecfe29d7">
+        <td class="sourcedoc-section section-signature">
+          <code>data class Book: Any</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>图书数据类</p>
+
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="2c8cb1052e4141428f9222b1b2bd658a817867d5">
+        <td class="sourcedoc-section section-signature">
+          <code>class BookShelf&lt;T&gt; : Iterable&lt;T&gt;, Any</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>书架类</p>
+
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="dd87f43d2bba9d59cf431cffb5bb11ad0c96d1b9">
+        <td class="sourcedoc-section section-signature">
+          <code>interface Iterable&lt;T&gt; : Any</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>迭代器接口</p>
+
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e866c20daef20c733f70d74fc7e3afab4049d9cd">
+        <td class="sourcedoc-section section-signature">
+          <code>interface Iterator&lt;T&gt; : Any</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>迭代器本体</p>
+
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+</div>
+
+
+
+
+
 
                     
                 
@@ -429,6 +533,56 @@
     
     <li>
         <a href="https://username.github.io/project/kotlindoc/template">template</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+            </ul>
+        </nav>
+        
+        <nav class="menu">
+            <header class="major">
+                <h2>iterator</h2>
+            </header>
+            <ul class="top-level">
+                
+                    
+    <li>
+        <span class="opener">Classes</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#ef4a1045b0ad2b2625453fbf1764ae65ecfe29d7">data class Book: Any</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#2c8cb1052e4141428f9222b1b2bd658a817867d5">class BookShelf&lt;T&gt; : Iterable&lt;T&gt;, Any</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#dd87f43d2bba9d59cf431cffb5bb11ad0c96d1b9">interface Iterable&lt;T&gt; : Any</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#e866c20daef20c733f70d74fc7e3afab4049d9cd">interface Iterator&lt;T&gt; : Any</a>
     </li>
     
 
