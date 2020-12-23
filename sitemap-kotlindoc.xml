@@ -4,107 +4,107 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://username.github.io/project/kotlindoc</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/template</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/template</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/template/stringdisplay</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/template/stringdisplay</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/template/chardisplay</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/template/chardisplay</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/template/abstractdisplay</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/template/abstractdisplay</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/adapter/delegation</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/adapter/delegation</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/adapter/delegation/printbanner</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/adapter/delegation/printbanner</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/adapter/delegation/banner</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/adapter/delegation/banner</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/adapter/delegation/print</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/adapter/delegation/print</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/adapter/exercises</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/adapter/exercises</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/adapter/exercises/fileio</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/adapter/exercises/fileio</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/adapter/exercises/propertiesadapter</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/adapter/exercises/propertiesadapter</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/adapter/extern</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/adapter/extern</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/adapter/extern/printbanner</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/adapter/extern/printbanner</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/adapter/extern/banner</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/adapter/extern/banner</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/adapter/extern/print</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/adapter/extern/print</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/iterator</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/iterator</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/iterator/iterable</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/iterator/iterable</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/iterator/book</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/iterator/book</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/iterator/bookshelf</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/iterator/bookshelf</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/kotlindoc/iterator/iterator</loc>
+        <loc>https://dp.fivezha.cn/kotlindoc/iterator/iterator</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>

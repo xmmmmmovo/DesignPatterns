@@ -4,11 +4,11 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "https://username.github.io/project",
+        "baseUrl": "https://dp.fivezha.cn",
         "fileName": "",
         "extension": "html",
         "usePrettyUrl": true,
-        "link": "https://username.github.io/project"
+        "link": "https://dp.fivezha.cn"
       },
       "description": "",
       "title": "Home",
@@ -17,11 +17,11 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "https://username.github.io/project",
+        "baseUrl": "https://dp.fivezha.cn",
         "fileName": "404",
         "extension": "html",
         "usePrettyUrl": false,
-        "link": "https://username.github.io/project/404.html"
+        "link": "https://dp.fivezha.cn/404.html"
       },
       "description": "",
       "title": "Not Found",

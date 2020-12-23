@@ -4,22 +4,22 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://username.github.io/project/wiki</loc>
+        <loc>https://dp.fivezha.cn/wiki</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/wiki/迭代器模式</loc>
+        <loc>https://dp.fivezha.cn/wiki/迭代器模式</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/wiki/适配器模式</loc>
+        <loc>https://dp.fivezha.cn/wiki/适配器模式</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://username.github.io/project/wiki/模板模式</loc>
+        <loc>https://dp.fivezha.cn/wiki/模板模式</loc>
         <lastmod>2020-12-23</lastmod>
         <priority>0.5</priority>
     </url>

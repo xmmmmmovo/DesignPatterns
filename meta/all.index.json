@@ -12,11 +12,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "kotlindoc",
-                  "baseUrl": "https://username.github.io/project",
+                  "baseUrl": "https://dp.fivezha.cn",
                   "fileName": "template/abstractdisplay",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "https://username.github.io/project/kotlindoc/template/abstractdisplay"
+                  "link": "https://dp.fivezha.cn/kotlindoc/template/abstractdisplay"
                 },
                 "description": "",
                 "title": "AbstractDisplay",
@@ -28,11 +28,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "kotlindoc",
-                  "baseUrl": "https://username.github.io/project",
+                  "baseUrl": "https://dp.fivezha.cn",
                   "fileName": "template/stringdisplay",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "https://username.github.io/project/kotlindoc/template/stringdisplay"
+                  "link": "https://dp.fivezha.cn/kotlindoc/template/stringdisplay"
                 },
                 "description": "",
                 "title": "StringDisplay",
@@ -44,11 +44,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "kotlindoc",
-                  "baseUrl": "https://username.github.io/project",
+                  "baseUrl": "https://dp.fivezha.cn",
                   "fileName": "template/chardisplay",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "https://username.github.io/project/kotlindoc/template/chardisplay"
+                  "link": "https://dp.fivezha.cn/kotlindoc/template/chardisplay"
                 },
                 "description": "",
                 "title": "CharDisplay",
@@ -59,11 +59,11 @@
           "ownPages": [{
             "reference": {
               "path": "kotlindoc",
-              "baseUrl": "https://username.github.io/project",
+              "baseUrl": "https://dp.fivezha.cn",
               "fileName": "template",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "https://username.github.io/project/kotlindoc/template"
+              "link": "https://dp.fivezha.cn/kotlindoc/template"
             },
             "description": "",
             "title": "template",
@@ -78,11 +78,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "kotlindoc",
-                  "baseUrl": "https://username.github.io/project",
+                  "baseUrl": "https://dp.fivezha.cn",
                   "fileName": "iterator/iterator",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "https://username.github.io/project/kotlindoc/iterator/iterator"
+                  "link": "https://dp.fivezha.cn/kotlindoc/iterator/iterator"
                 },
                 "description": "",
                 "title": "Iterator",
@@ -94,11 +94,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "kotlindoc",
-                  "baseUrl": "https://username.github.io/project",
+                  "baseUrl": "https://dp.fivezha.cn",
                   "fileName": "iterator/bookshelf",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "https://username.github.io/project/kotlindoc/iterator/bookshelf"
+                  "link": "https://dp.fivezha.cn/kotlindoc/iterator/bookshelf"
                 },
                 "description": "",
                 "title": "BookShelf",
@@ -110,11 +110,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "kotlindoc",
-                  "baseUrl": "https://username.github.io/project",
+                  "baseUrl": "https://dp.fivezha.cn",
                   "fileName": "iterator/book",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "https://username.github.io/project/kotlindoc/iterator/book"
+                  "link": "https://dp.fivezha.cn/kotlindoc/iterator/book"
                 },
                 "description": "",
                 "title": "Book",
@@ -126,11 +126,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "kotlindoc",
-                  "baseUrl": "https://username.github.io/project",
+                  "baseUrl": "https://dp.fivezha.cn",
                   "fileName": "iterator/iterable",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "https://username.github.io/project/kotlindoc/iterator/iterable"
+                  "link": "https://dp.fivezha.cn/kotlindoc/iterator/iterable"
                 },
                 "description": "",
                 "title": "Iterable",
@@ -141,11 +141,11 @@
           "ownPages": [{
             "reference": {
               "path": "kotlindoc",
-              "baseUrl": "https://username.github.io/project",
+              "baseUrl": "https://dp.fivezha.cn",
               "fileName": "iterator",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "https://username.github.io/project/kotlindoc/iterator"
+              "link": "https://dp.fivezha.cn/kotlindoc/iterator"
             },
             "description": "",
             "title": "iterator",
@@ -163,11 +163,11 @@
                   "ownPages": [{
                     "reference": {
                       "path": "kotlindoc",
-                      "baseUrl": "https://username.github.io/project",
+                      "baseUrl": "https://dp.fivezha.cn",
                       "fileName": "adapter/exercises/fileio",
                       "extension": "html",
                       "usePrettyUrl": true,
-                      "link": "https://username.github.io/project/kotlindoc/adapter/exercises/fileio"
+                      "link": "https://dp.fivezha.cn/kotlindoc/adapter/exercises/fileio"
                     },
                     "description": "",
                     "title": "FileIO",
@@ -179,11 +179,11 @@
                   "ownPages": [{
                     "reference": {
                       "path": "kotlindoc",
-                      "baseUrl": "https://username.github.io/project",
+                      "baseUrl": "https://dp.fivezha.cn",
                       "fileName": "adapter/exercises/propertiesadapter",
                       "extension": "html",
                       "usePrettyUrl": true,
-                      "link": "https://username.github.io/project/kotlindoc/adapter/exercises/propertiesadapter"
+                      "link": "https://dp.fivezha.cn/kotlindoc/adapter/exercises/propertiesadapter"
                     },
                     "description": "",
                     "title": "PropertiesAdapter",
@@ -194,11 +194,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "kotlindoc",
-                  "baseUrl": "https://username.github.io/project",
+                  "baseUrl": "https://dp.fivezha.cn",
                   "fileName": "adapter/exercises",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "https://username.github.io/project/kotlindoc/adapter/exercises"
+                  "link": "https://dp.fivezha.cn/kotlindoc/adapter/exercises"
                 },
                 "description": "",
                 "title": "adapter.exercises",
@@ -213,11 +213,11 @@
                   "ownPages": [{
                     "reference": {
                       "path": "kotlindoc",
-                      "baseUrl": "https://username.github.io/project",
+                      "baseUrl": "https://dp.fivezha.cn",
                       "fileName": "adapter/extern/print",
                       "extension": "html",
                       "usePrettyUrl": true,
-                      "link": "https://username.github.io/project/kotlindoc/adapter/extern/print"
+                      "link": "https://dp.fivezha.cn/kotlindoc/adapter/extern/print"
                     },
                     "description": "",
                     "title": "Print",
@@ -229,11 +229,11 @@
                   "ownPages": [{
                     "reference": {
                       "path": "kotlindoc",
-                      "baseUrl": "https://username.github.io/project",
+                      "baseUrl": "https://dp.fivezha.cn",
                       "fileName": "adapter/extern/printbanner",
                       "extension": "html",
                       "usePrettyUrl": true,
-                      "link": "https://username.github.io/project/kotlindoc/adapter/extern/printbanner"
+                      "link": "https://dp.fivezha.cn/kotlindoc/adapter/extern/printbanner"
                     },
                     "description": "",
                     "title": "PrintBanner",
@@ -245,11 +245,11 @@
                   "ownPages": [{
                     "reference": {
                       "path": "kotlindoc",
-                      "baseUrl": "https://username.github.io/project",
+                      "baseUrl": "https://dp.fivezha.cn",
                       "fileName": "adapter/extern/banner",
                       "extension": "html",
                       "usePrettyUrl": true,
-                      "link": "https://username.github.io/project/kotlindoc/adapter/extern/banner"
+                      "link": "https://dp.fivezha.cn/kotlindoc/adapter/extern/banner"
                     },
                     "description": "",
                     "title": "Banner",
@@ -260,11 +260,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "kotlindoc",
-                  "baseUrl": "https://username.github.io/project",
+                  "baseUrl": "https://dp.fivezha.cn",
                   "fileName": "adapter/extern",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "https://username.github.io/project/kotlindoc/adapter/extern"
+                  "link": "https://dp.fivezha.cn/kotlindoc/adapter/extern"
                 },
                 "description": "",
                 "title": "adapter.extern",
@@ -279,11 +279,11 @@
                   "ownPages": [{
                     "reference": {
                       "path": "kotlindoc",
-                      "baseUrl": "https://username.github.io/project",
+                      "baseUrl": "https://dp.fivezha.cn",
                       "fileName": "adapter/delegation/print",
                       "extension": "html",
                       "usePrettyUrl": true,
-                      "link": "https://username.github.io/project/kotlindoc/adapter/delegation/print"
+                      "link": "https://dp.fivezha.cn/kotlindoc/adapter/delegation/print"
                     },
                     "description": "",
                     "title": "Print",
@@ -295,11 +295,11 @@
                   "ownPages": [{
                     "reference": {
                       "path": "kotlindoc",
-                      "baseUrl": "https://username.github.io/project",
+                      "baseUrl": "https://dp.fivezha.cn",
                       "fileName": "adapter/delegation/printbanner",
                       "extension": "html",
                       "usePrettyUrl": true,
-                      "link": "https://username.github.io/project/kotlindoc/adapter/delegation/printbanner"
+                      "link": "https://dp.fivezha.cn/kotlindoc/adapter/delegation/printbanner"
                     },
                     "description": "",
                     "title": "PrintBanner",
@@ -311,11 +311,11 @@
                   "ownPages": [{
                     "reference": {
                       "path": "kotlindoc",
-                      "baseUrl": "https://username.github.io/project",
+                      "baseUrl": "https://dp.fivezha.cn",
                       "fileName": "adapter/delegation/banner",
                       "extension": "html",
                       "usePrettyUrl": true,
-                      "link": "https://username.github.io/project/kotlindoc/adapter/delegation/banner"
+                      "link": "https://dp.fivezha.cn/kotlindoc/adapter/delegation/banner"
                     },
                     "description": "",
                     "title": "Banner",
@@ -326,11 +326,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "kotlindoc",
-                  "baseUrl": "https://username.github.io/project",
+                  "baseUrl": "https://dp.fivezha.cn",
                   "fileName": "adapter/delegation",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "https://username.github.io/project/kotlindoc/adapter/delegation"
+                  "link": "https://dp.fivezha.cn/kotlindoc/adapter/delegation"
                 },
                 "description": "",
                 "title": "adapter.delegation",
@@ -343,15 +343,15 @@
       "ownPages": [{
         "reference": {
           "path": "kotlindoc",
-          "baseUrl": "https://username.github.io/project",
+          "baseUrl": "https://dp.fivezha.cn",
           "fileName": "",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "https://username.github.io/project/kotlindoc"
+          "link": "https://dp.fivezha.cn/kotlindoc"
         },
         "description": "",
         "title": "README",
-        "content": "<h1 id=\"designpatterns\"><a href=\"#designpatterns\" id=\"designpatterns\" class=\"anchor\"><\/a>DesignPatterns<\/h1>\n<p><img src=\"https://img.shields.io/badge/language-kotlin-orange.svg\" alt=\"kotlin\" /> <img src=\"https://img.shields.io/badge/license-Apache2.0-brightgreen.svg\" alt=\"apache\" /> <a href=\"https://codecov.io/gh/xmmmmmovo/DesignPatterns\"><img src=\"https://codecov.io/gh/xmmmmmovo/DesignPatterns/branch/main/graph/badge.svg?token=YBKKJH8EAK\" alt=\"codecov\" /><\/a><\/p>\n<p>设计模式<\/p>\n<p><strong>不要只使用具体类来编程，要优先使用接口来编程<\/strong><\/p>\n<ul>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Iterator模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Adapter模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Template模式<\/li>\n<\/ul>\n"
+        "content": "<h1 id=\"designpatterns\"><a href=\"#designpatterns\" id=\"designpatterns\" class=\"anchor\"><\/a>DesignPatterns<\/h1>\n<p><img src=\"https://img.shields.io/badge/language-kotlin-orange.svg\" alt=\"kotlin\" /> <img src=\"https://img.shields.io/badge/license-Apache2.0-brightgreen.svg\" alt=\"apache\" /> <a href=\"https://codecov.io/gh/xmmmmmovo/DesignPatterns\"><img src=\"https://codecov.io/gh/xmmmmmovo/DesignPatterns/branch/main/graph/badge.svg?token=YBKKJH8EAK\" alt=\"codecov\" /><\/a><\/p>\n<p>设计模式<\/p>\n<p>文档：https://dp.fivezha.cn<\/p>\n<p><strong>不要只使用具体类来编程，要优先使用接口来编程<\/strong><\/p>\n<ul>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Iterator模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Adapter模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Template模式<\/li>\n<\/ul>\n"
       }]
     },
     "wiki": {
@@ -362,27 +362,27 @@
           "ownPages": [{
             "reference": {
               "path": "wiki",
-              "baseUrl": "https://username.github.io/project",
+              "baseUrl": "https://dp.fivezha.cn",
               "fileName": "适配器模式",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "https://username.github.io/project/wiki/适配器模式"
+              "link": "https://dp.fivezha.cn/wiki/适配器模式"
             },
             "next": {
               "path": "wiki",
-              "baseUrl": "https://username.github.io/project",
+              "baseUrl": "https://dp.fivezha.cn",
               "fileName": "模板模式",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "https://username.github.io/project/wiki/模板模式"
+              "link": "https://dp.fivezha.cn/wiki/模板模式"
             },
             "previous": {
               "path": "wiki",
-              "baseUrl": "https://username.github.io/project",
+              "baseUrl": "https://dp.fivezha.cn",
               "fileName": "迭代器模式",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "https://username.github.io/project/wiki/迭代器模式"
+              "link": "https://dp.fivezha.cn/wiki/迭代器模式"
             },
             "description": "",
             "title": "适配器模式",
@@ -394,19 +394,19 @@
           "ownPages": [{
             "reference": {
               "path": "wiki",
-              "baseUrl": "https://username.github.io/project",
+              "baseUrl": "https://dp.fivezha.cn",
               "fileName": "迭代器模式",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "https://username.github.io/project/wiki/迭代器模式"
+              "link": "https://dp.fivezha.cn/wiki/迭代器模式"
             },
             "next": {
               "path": "wiki",
-              "baseUrl": "https://username.github.io/project",
+              "baseUrl": "https://dp.fivezha.cn",
               "fileName": "适配器模式",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "https://username.github.io/project/wiki/适配器模式"
+              "link": "https://dp.fivezha.cn/wiki/适配器模式"
             },
             "description": "",
             "title": "迭代器模式",
@@ -418,19 +418,19 @@
           "ownPages": [{
             "reference": {
               "path": "wiki",
-              "baseUrl": "https://username.github.io/project",
+              "baseUrl": "https://dp.fivezha.cn",
               "fileName": "模板模式",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "https://username.github.io/project/wiki/模板模式"
+              "link": "https://dp.fivezha.cn/wiki/模板模式"
             },
             "previous": {
               "path": "wiki",
-              "baseUrl": "https://username.github.io/project",
+              "baseUrl": "https://dp.fivezha.cn",
               "fileName": "适配器模式",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "https://username.github.io/project/wiki/适配器模式"
+              "link": "https://dp.fivezha.cn/wiki/适配器模式"
             },
             "description": "",
             "title": "模板模式",
@@ -441,15 +441,15 @@
       "ownPages": [{
         "reference": {
           "path": "",
-          "baseUrl": "https://username.github.io/project",
+          "baseUrl": "https://dp.fivezha.cn",
           "fileName": "wiki",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "https://username.github.io/project/wiki"
+          "link": "https://dp.fivezha.cn/wiki"
         },
         "description": "",
         "title": "Wiki",
-        "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"https://username.github.io/project/wiki/迭代器模式\">迭代器模式<\/a><\/li> \n   <li><a href=\"https://username.github.io/project/wiki/适配器模式\">适配器模式<\/a><\/li> \n   <li><a href=\"https://username.github.io/project/wiki/模板模式\">模板模式<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+        "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"https://dp.fivezha.cn/wiki/迭代器模式\">迭代器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/适配器模式\">适配器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/模板模式\">模板模式<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
       }]
     }
   },
@@ -457,11 +457,11 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "https://username.github.io/project",
+        "baseUrl": "https://dp.fivezha.cn",
         "fileName": "",
         "extension": "html",
         "usePrettyUrl": true,
-        "link": "https://username.github.io/project"
+        "link": "https://dp.fivezha.cn"
       },
       "description": "",
       "title": "Home",
@@ -470,11 +470,11 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "https://username.github.io/project",
+        "baseUrl": "https://dp.fivezha.cn",
         "fileName": "404",
         "extension": "html",
         "usePrettyUrl": false,
-        "link": "https://username.github.io/project/404.html"
+        "link": "https://dp.fivezha.cn/404.html"
       },
       "description": "",
       "title": "Not Found",

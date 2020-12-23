@@ -8,27 +8,27 @@
         "ownPages": [{
           "reference": {
             "path": "wiki",
-            "baseUrl": "https://username.github.io/project",
+            "baseUrl": "https://dp.fivezha.cn",
             "fileName": "适配器模式",
             "extension": "html",
             "usePrettyUrl": true,
-            "link": "https://username.github.io/project/wiki/适配器模式"
+            "link": "https://dp.fivezha.cn/wiki/适配器模式"
           },
           "next": {
             "path": "wiki",
-            "baseUrl": "https://username.github.io/project",
+            "baseUrl": "https://dp.fivezha.cn",
             "fileName": "模板模式",
             "extension": "html",
             "usePrettyUrl": true,
-            "link": "https://username.github.io/project/wiki/模板模式"
+            "link": "https://dp.fivezha.cn/wiki/模板模式"
           },
           "previous": {
             "path": "wiki",
-            "baseUrl": "https://username.github.io/project",
+            "baseUrl": "https://dp.fivezha.cn",
             "fileName": "迭代器模式",
             "extension": "html",
             "usePrettyUrl": true,
-            "link": "https://username.github.io/project/wiki/迭代器模式"
+            "link": "https://dp.fivezha.cn/wiki/迭代器模式"
           },
           "description": "",
           "title": "适配器模式",
@@ -40,19 +40,19 @@
         "ownPages": [{
           "reference": {
             "path": "wiki",
-            "baseUrl": "https://username.github.io/project",
+            "baseUrl": "https://dp.fivezha.cn",
             "fileName": "迭代器模式",
             "extension": "html",
             "usePrettyUrl": true,
-            "link": "https://username.github.io/project/wiki/迭代器模式"
+            "link": "https://dp.fivezha.cn/wiki/迭代器模式"
           },
           "next": {
             "path": "wiki",
-            "baseUrl": "https://username.github.io/project",
+            "baseUrl": "https://dp.fivezha.cn",
             "fileName": "适配器模式",
             "extension": "html",
             "usePrettyUrl": true,
-            "link": "https://username.github.io/project/wiki/适配器模式"
+            "link": "https://dp.fivezha.cn/wiki/适配器模式"
           },
           "description": "",
           "title": "迭代器模式",
@@ -64,19 +64,19 @@
         "ownPages": [{
           "reference": {
             "path": "wiki",
-            "baseUrl": "https://username.github.io/project",
+            "baseUrl": "https://dp.fivezha.cn",
             "fileName": "模板模式",
             "extension": "html",
             "usePrettyUrl": true,
-            "link": "https://username.github.io/project/wiki/模板模式"
+            "link": "https://dp.fivezha.cn/wiki/模板模式"
           },
           "previous": {
             "path": "wiki",
-            "baseUrl": "https://username.github.io/project",
+            "baseUrl": "https://dp.fivezha.cn",
             "fileName": "适配器模式",
             "extension": "html",
             "usePrettyUrl": true,
-            "link": "https://username.github.io/project/wiki/适配器模式"
+            "link": "https://dp.fivezha.cn/wiki/适配器模式"
           },
           "description": "",
           "title": "模板模式",
@@ -87,15 +87,15 @@
     "ownPages": [{
       "reference": {
         "path": "",
-        "baseUrl": "https://username.github.io/project",
+        "baseUrl": "https://dp.fivezha.cn",
         "fileName": "wiki",
         "extension": "html",
         "usePrettyUrl": true,
-        "link": "https://username.github.io/project/wiki"
+        "link": "https://dp.fivezha.cn/wiki"
       },
       "description": "",
       "title": "Wiki",
-      "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"https://username.github.io/project/wiki/迭代器模式\">迭代器模式<\/a><\/li> \n   <li><a href=\"https://username.github.io/project/wiki/适配器模式\">适配器模式<\/a><\/li> \n   <li><a href=\"https://username.github.io/project/wiki/模板模式\">模板模式<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+      "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"https://dp.fivezha.cn/wiki/迭代器模式\">迭代器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/适配器模式\">适配器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/模板模式\">模板模式<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
     }]
   }}
 }
