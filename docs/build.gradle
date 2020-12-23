@@ -22,6 +22,6 @@ dependencies {
 
 orchid {
     theme = "Editorial"
-    baseUrl = "https://username.github.io/project"
+    baseUrl = "https://dp.fivezha.cn"
     version = "1.0.0"
 }

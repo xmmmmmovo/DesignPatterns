@@ -3,6 +3,8 @@
 
 设计模式
 
+文档：https://dp.fivezha.cn
+
 **不要只使用具体类来编程，要优先使用接口来编程**
 
 - [x] Iterator模式
