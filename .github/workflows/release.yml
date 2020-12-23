@@ -53,7 +53,7 @@ jobs:
 
       # 生成文档
       - name: Generate documentation
-        run: ./gradlew dokka
+        run: ./gradlew orchidBuild
       # 部署到ghpage
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
