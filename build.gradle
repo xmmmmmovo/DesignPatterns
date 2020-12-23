@@ -1,7 +1,7 @@
 plugins {
+    id "com.eden.orchidPlugin" version "0.21.0"
     id 'org.jetbrains.kotlin.jvm' version '1.4.20'
     id 'jacoco'
-    id "com.eden.orchidPlugin" version "0.21.0"
 }
 
 group = 'cn.fivezha'

@@ -7,3 +7,4 @@
 
 - [x] Iterator模式
 - [x] Adapter模式
+- [x] Template模式
