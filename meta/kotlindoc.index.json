@@ -19,7 +19,7 @@
               },
               "description": "",
               "title": "AbstractDisplay",
-              "content": "<p><init><\/p>\n<p>open<\/p>\n<p>print<\/p>\n<p>close<\/p>\n<p>display<\/p>\n"
+              "content": "<p>抽象展示类<\/p><init>\n<p>抽象展示类<\/p>\nopen\n<p>打开方法<\/p>\nprint\n<p>输出方法<\/p>\nclose\n<p>关闭方法<\/p>\ndisplay\n<p>显示方法<\/p>\n"
             }]
           },
           "stringdisplay": {
@@ -35,7 +35,7 @@
               },
               "description": "",
               "title": "StringDisplay",
-              "content": "<p><init><\/p>\n<p>open<\/p>\n<p>print<\/p>\n<p>close<\/p>\n"
+              "content": "<p>字符串输出类<\/p><init>\n<p>初始化字符串<\/p>\nopen\n<p>打开<\/p>\nprint\n<p>输出字符串<\/p>\nclose\n<p>关闭<\/p>\n"
             }]
           },
           "chardisplay": {
@@ -51,7 +51,7 @@
               },
               "description": "",
               "title": "CharDisplay",
-              "content": "<p><init><\/p>\n<p>open<\/p>\n<p>print<\/p>\n<p>close<\/p>\n"
+              "content": "<p>字符显示类<\/p><init>\n<p>初始化字符<\/p>\nopen\n<p>打开<\/p>\nprint\n<p>输出字符<\/p>\nclose\n<p>关闭<\/p>\n"
             }]
           }
         },
@@ -66,8 +66,113 @@
           },
           "description": "",
           "title": "template",
-          "content": "<p>AbstractDisplay<\/p>\n<p>CharDisplay<\/p>\n<p>StringDisplay<\/p>\n"
+          "content": "<p>AbstractDisplay<\/p>\n<p>抽象展示类<\/p>\nCharDisplay\n<p>字符显示类<\/p>\nStringDisplay\n<p>字符串输出类<\/p>\n"
         }]
+      },
+      "factory": {
+        "ownKey": "factory",
+        "childrenPages": {
+          "framework": {
+            "ownKey": "framework",
+            "childrenPages": {
+              "factory": {
+                "ownKey": "factory",
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://dp.fivezha.cn",
+                    "fileName": "factory/framework/factory",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://dp.fivezha.cn/kotlindoc/factory/framework/factory"
+                  },
+                  "description": "",
+                  "title": "Factory",
+                  "content": "<p><init><\/p>\n<p>create<\/p>\n<p>createProduct<\/p>\n<p>registerProduct<\/p>\n"
+                }]
+              },
+              "product": {
+                "ownKey": "product",
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://dp.fivezha.cn",
+                    "fileName": "factory/framework/product",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://dp.fivezha.cn/kotlindoc/factory/framework/product"
+                  },
+                  "description": "",
+                  "title": "Product",
+                  "content": "<p><init><\/p>\n<p>use<\/p>\n"
+                }]
+              }
+            },
+            "ownPages": [{
+              "reference": {
+                "path": "kotlindoc",
+                "baseUrl": "https://dp.fivezha.cn",
+                "fileName": "factory/framework",
+                "extension": "html",
+                "usePrettyUrl": true,
+                "link": "https://dp.fivezha.cn/kotlindoc/factory/framework"
+              },
+              "description": "",
+              "title": "factory.framework",
+              "content": "<p>Factory<\/p>\n<p>Product<\/p>\n"
+            }]
+          },
+          "idcard": {
+            "ownKey": "idcard",
+            "childrenPages": {
+              "idcard": {
+                "ownKey": "idcard",
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://dp.fivezha.cn",
+                    "fileName": "factory/idcard/idcard",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://dp.fivezha.cn/kotlindoc/factory/idcard/idcard"
+                  },
+                  "description": "",
+                  "title": "IDCard",
+                  "content": "<p>owner<\/p>\n<p><init><\/p>\n<p>use<\/p>\n"
+                }]
+              },
+              "idcardfactory": {
+                "ownKey": "idcardfactory",
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://dp.fivezha.cn",
+                    "fileName": "factory/idcard/idcardfactory",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://dp.fivezha.cn/kotlindoc/factory/idcard/idcardfactory"
+                  },
+                  "description": "",
+                  "title": "IDCardFactory",
+                  "content": "<p>owner<\/p>\n<p><init><\/p>\n<p>createProduct<\/p>\n<p>registerProduct<\/p>\n"
+                }]
+              }
+            },
+            "ownPages": [{
+              "reference": {
+                "path": "kotlindoc",
+                "baseUrl": "https://dp.fivezha.cn",
+                "fileName": "factory/idcard",
+                "extension": "html",
+                "usePrettyUrl": true,
+                "link": "https://dp.fivezha.cn/kotlindoc/factory/idcard"
+              },
+              "description": "",
+              "title": "factory.idcard",
+              "content": "<p>IDCard<\/p>\n<p>IDCardFactory<\/p>\n"
+            }]
+          }
+        }
       },
       "iterator": {
         "ownKey": "iterator",

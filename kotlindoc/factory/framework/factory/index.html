@@ -23,7 +23,7 @@
 
 
 
-<title>Wiki</title>
+<title>Factory</title>
 
 
 <meta name="description" content="用kotlin实现设计模式">
@@ -37,6 +37,7 @@
 <link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/616d4797/assets/css/editorial_orchidCustomizations.css"  />
 <link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/616d4797/assets/css/orchidSearch.css"  />
 <link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/assets/css/orchidSourceDoc.css"  />
 <!-- end:inject styles -->
 
 
@@ -50,20 +51,20 @@
 <!-- Class: com.eden.orchid.editorial.EditorialTheme -->
 
 <!-- PAGE -->
-<!-- Type: wikiSummary -->
-<!-- Class: com.eden.orchid.wiki.pages.WikiSummaryPage -->
+<!-- Type: classes -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocPage -->
 <!-- Layout: index -->
 <!-- Resolved Layout: templates/layouts/index.peb -->
-<!-- Page Template: wikiSummary, page -->
-<!-- Resolved Page Template: templates/pages/page.peb -->
+<!-- Page Template: kotlindocClass, sourceDocPage, classes, page -->
+<!-- Resolved Page Template: templates/pages/sourceDocPage.peb -->
 
 <!-- RESOURCE -->
-<!-- Class: com.eden.orchid.api.resources.resource.StringResource -->
-<!-- Source Filename: wiki/summary.md -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocResource -->
+<!-- Source Filename:  -->
 
 <!-- COMPLETE PAGE CONFIGURATION -->
 <script>
-    window.allData = {"reference":{"path":"","baseUrl":"https://dp.fivezha.cn","fileName":"wiki","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/wiki"},"description":"","title":"Wiki"};
+    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://dp.fivezha.cn","fileName":"factory/framework/factory","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/kotlindoc/factory/framework/factory"},"description":"","title":"Factory"};
 </script>
 
 <!-- end:debug info -->
@@ -157,7 +158,7 @@
             
             
                 <section id="pageContent">
-                    <header class="major"><h2>Wiki</h2></header>
+                    <header class="major"><h2>Factory</h2></header>
                     <article>
                         
     <!-- start:inject components -->
@@ -166,16 +167,344 @@
             
                 
                     
-                        <html>
- <head></head>
- <body>
-  <ul> 
-   <li><a href="https://dp.fivezha.cn/wiki/迭代器模式">迭代器模式</a></li> 
-   <li><a href="https://dp.fivezha.cn/wiki/适配器模式">适配器模式</a></li> 
-   <li><a href="https://dp.fivezha.cn/wiki/模板模式">模板模式</a></li> 
-  </ul> 
- </body>
-</html>
+                        <div class="sourcedoc-page orchid-sourcedoc content">
+  
+<div class="sourcedoc-section section-root section-level-1" id="Factory">
+
+
+  
+
+  
+    <div class="sourcedoc-section section-element" id="dec9797db89d9f850458dcf626bd94eca50e8bb2">
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract class Factory: Any</code>
+      </p>
+
+      
+        
+    <!-- start:inject components -->
+    
+    <!-- end:inject components -->
+
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="constructors">
+
+
+  <p class="sourcedoc-section section-name"><strong>Constructors</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="d4613aad3f43ed7d2b370aabe518d8516ff827ff">
+        <td class="sourcedoc-section section-signature">
+          <code>constructor()</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="methods">
+
+
+  
+    <h2 class="sourcedoc-section section-name">Methods</h2>
+  
+
+  
+    <div class="sourcedoc-section section-element" id="62c07839b8a2f6b028c8efde410e1a0560b39326">
+      
+      <h3 class="sourcedoc-section element-name">create</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun create(owner: String): Product</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="1b1b5f5b1762c1ec90cd65e11e0e54c8d94dc6d9">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="2608a1093937b3256a391d84df20372e14d9f633">
+        <td class="sourcedoc-section section-signature">
+          <code>owner: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="274a42b6837bb187939596187310fc4f493584bc">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="dd3b86d1ef21b9fb2e1edc30f524e7afb491b1ad">
+        <td class="sourcedoc-section section-signature">
+          <code>Product</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="2bdf83942513b1a16d5db8426ce02cee38dd4eea">
+      
+      <h3 class="sourcedoc-section element-name">createProduct</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>protected abstract fun createProduct(owner: String): Product</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="707ffafe46ab6b805a75829e4110dc1a7d7187ab">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="2608a1093937b3256a391d84df20372e14d9f633">
+        <td class="sourcedoc-section section-signature">
+          <code>owner: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="6484f7a734c67837bc38b7f5f844053674158468">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="dd3b86d1ef21b9fb2e1edc30f524e7afb491b1ad">
+        <td class="sourcedoc-section section-signature">
+          <code>Product</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="8455c480dab8b7ec78b870d22b183512cf4e8510">
+      
+      <h3 class="sourcedoc-section element-name">registerProduct</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>protected abstract fun registerProduct(product: Product)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="880aba45cd89892082141d18f6eab2f85d7bd811">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="95185b3badf06a96da9e0140b3034ec6d2307107">
+        <td class="sourcedoc-section section-signature">
+          <code>product: Product</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="0dababc2567aeb1e91e67063ed7a774d15687114">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+</div>
+
+
+
+
+
 
                     
                 
@@ -486,6 +815,65 @@
     
     <li>
         <a href="https://dp.fivezha.cn/kotlindoc/template">template</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+            </ul>
+        </nav>
+        
+        <nav class="menu">
+            <header class="major">
+                <h2>Factory</h2>
+            </header>
+            <ul class="top-level">
+                
+                    
+    <li>
+        <span class="opener">Constructors</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#d4613aad3f43ed7d2b370aabe518d8516ff827ff">constructor()</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+                    
+    <li>
+        <span class="opener">Methods</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#62c07839b8a2f6b028c8efde410e1a0560b39326">fun create(owner: String): Product</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#2bdf83942513b1a16d5db8426ce02cee38dd4eea">protected abstract fun createProduct(owner: String): Product</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#8455c480dab8b7ec78b870d22b183512cf4e8510">protected abstract fun registerProduct(product: Product)</a>
     </li>
     
 

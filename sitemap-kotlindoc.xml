@@ -5,107 +5,137 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/template</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/template/stringdisplay</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/template/chardisplay</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/template/abstractdisplay</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://dp.fivezha.cn/kotlindoc/factory/framework</loc>
+        <lastmod>2020-12-25</lastmod>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://dp.fivezha.cn/kotlindoc/factory/framework/factory</loc>
+        <lastmod>2020-12-25</lastmod>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://dp.fivezha.cn/kotlindoc/factory/framework/product</loc>
+        <lastmod>2020-12-25</lastmod>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://dp.fivezha.cn/kotlindoc/factory/idcard</loc>
+        <lastmod>2020-12-25</lastmod>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://dp.fivezha.cn/kotlindoc/factory/idcard/idcardfactory</loc>
+        <lastmod>2020-12-25</lastmod>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://dp.fivezha.cn/kotlindoc/factory/idcard/idcard</loc>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/adapter/delegation</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/adapter/delegation/printbanner</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/adapter/delegation/banner</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/adapter/delegation/print</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/adapter/exercises</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/adapter/exercises/fileio</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/adapter/exercises/propertiesadapter</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/adapter/extern</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/adapter/extern/printbanner</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/adapter/extern/banner</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/adapter/extern/print</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/iterator</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/iterator/iterable</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/iterator/book</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/iterator/bookshelf</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://dp.fivezha.cn/kotlindoc/iterator/iterator</loc>
-        <lastmod>2020-12-23</lastmod>
+        <lastmod>2020-12-25</lastmod>
         <priority>0.5</priority>
     </url>
 </urlset>
