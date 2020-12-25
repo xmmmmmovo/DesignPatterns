@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'cn.fivezha'
-version '2.0'
+version '3.5'
 
 repositories {
     mavenCentral()
@@ -23,5 +23,5 @@ dependencies {
 orchid {
     theme = "Editorial"
     baseUrl = "https://dp.fivezha.cn"
-    version = "1.0.0"
+    version = "${project.version}"
 }
