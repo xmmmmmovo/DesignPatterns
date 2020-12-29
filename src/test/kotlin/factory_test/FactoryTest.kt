@@ -30,9 +30,9 @@ class FactoryTest {
     @Test
     fun factoryTest() {
         val factory = IDCardFactory()
-        val c1 = factory.create("小红")
-        val c2 = factory.create("小明")
-        val c3 = factory.create("小刚")
+        val c1 = factory.create("小红", "11")
+        val c2 = factory.create("小明", "22")
+        val c3 = factory.create("小刚", "33")
         c1.use()
         c2.use()
         c3.use()

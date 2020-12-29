@@ -11,7 +11,7 @@ import factory.framework.Product
  * @property owner String  卡所有者字符串
  * @constructor 输出创建语句
  */
-class IDCard(val owner: String) : Product() {
+class IDCard(val owner: String, val id: String) : Product() {
 
     init {
         println("制作${owner}的ID卡")
@@ -21,6 +21,6 @@ class IDCard(val owner: String) : Product() {
      * 使用函数实现
      */
     override fun use() {
-        println("使用${owner}的ID卡")
+        println("使用id为${id}${owner}的ID卡")
     }
 }

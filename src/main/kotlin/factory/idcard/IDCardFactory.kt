@@ -9,22 +9,23 @@ import factory.framework.Product
 
 /**
  * ID卡工厂
- * @property _owners ArrayList<Any>  拥有者列表
- * @property owner List<Any> 对外的拥有者
+ * @property _owners mutableMap<String, String>  拥有者列表
+ * @property owner Map<String, String> 对外的拥有者
  */
 class IDCardFactory : Factory() {
-    private val _owners = ArrayList<Any>()
+    private val _owners = mutableMapOf<String, String>()
 
-    val owner: List<Any>
+    val owner: Map<String, String>
         get() = _owners
 
     /**
      * 创建产品
      * @param owner String 产品所有
+     * @param id String
      * @return Product 创建的产品
      */
-    override fun createProduct(owner: String): Product {
-        return IDCard(owner)
+    override fun createProduct(owner: String, id: String): Product {
+        return IDCard(owner, id)
     }
 
     /**
@@ -32,6 +33,6 @@ class IDCardFactory : Factory() {
      * @param product Product 用于注册的产品
      */
     override fun registerProduct(product: Product) {
-        _owners.add((product as IDCard).owner)
+        _owners[(product as IDCard).id] = product.owner
     }
 }
