@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'cn.fivezha'
-version '3.5'
+version '5.0'
 
 repositories {
     mavenCentral()
