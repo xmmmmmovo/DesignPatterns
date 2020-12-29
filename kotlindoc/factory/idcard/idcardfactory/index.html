@@ -33,9 +33,9 @@
 
 
 <!-- start:inject styles -->
-<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/616d4797/assets/css/editorial_main.css"  />
-<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/616d4797/assets/css/editorial_orchidCustomizations.css"  />
-<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/616d4797/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/36e42ff1/assets/css/editorial_main.css"  />
+<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/36e42ff1/assets/css/editorial_orchidCustomizations.css"  />
+<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/36e42ff1/assets/css/orchidSearch.css"  />
 <link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/assets/css/orchidSearch.css"  />
 <link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/assets/css/orchidSourceDoc.css"  />
 <!-- end:inject styles -->
@@ -190,7 +190,8 @@
 
       
 
-      <div class="sourcedoc-section section-comments"></div>
+      <div class="sourcedoc-section section-comments"><p>ID卡工厂</p>
+</div>
 
       
       
@@ -211,12 +212,13 @@
       </thead>
       <tbody>
       
-      <tr class="sourcedoc-section section-element" id="d4d0568475825384dacd435f6e8cc472ba7fc765">
+      <tr class="sourcedoc-section section-element" id="2433ef2e432c71ccf28756420dd948a9bd7d8145">
         <td class="sourcedoc-section section-signature">
-          <code>val owner: List&lt;Any&gt;</code>
+          <code>val owner: Map&lt;String, String&gt;</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        
+        <p>Map<String, String> 对外的拥有者</p>
+
         </td>
       </tr>
       
@@ -249,7 +251,8 @@
           <code>constructor()</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        
+        <p>ID卡工厂</p>
+
         </td>
       </tr>
       
@@ -270,23 +273,24 @@
   
 
   
-    <div class="sourcedoc-section section-element" id="3fe7300cbbff2bebdafecd4afe45da91b366f252">
+    <div class="sourcedoc-section section-element" id="5aeaa2d47fe43fa219b17ae53b176254099a6002">
       
       <h3 class="sourcedoc-section element-name">createProduct</h3>
       
       <p class="sourcedoc-section section-signature">
-        <code>protected fun createProduct(owner: String): Product</code>
+        <code>protected fun createProduct(owner: String, id: String): Product</code>
       </p>
 
       
 
-      <div class="sourcedoc-section section-comments"></div>
+      <div class="sourcedoc-section section-comments"><p>创建产品</p>
+</div>
 
       
       
         
           
-<div class="sourcedoc-section section-root section-level-3" id="49a1b7ec3d84daf20cc8725486c7f7cb318df424">
+<div class="sourcedoc-section section-root section-level-3" id="242b6b37b01097fe3e05a6a7efd314f25471b6ea">
 
 
   <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
@@ -306,7 +310,18 @@
           <code>owner: String</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        
+        <p>String 产品所有</p>
+
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e1f6ec0980aa862c68cbaa8110e74551ae83ddd6">
+        <td class="sourcedoc-section section-signature">
+          <code>id: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>String</p>
+
         </td>
       </tr>
       
@@ -319,7 +334,7 @@
 
         
           
-<div class="sourcedoc-section section-root section-level-3" id="32e8f61c78d19f10c75544ac0bd1e89c14189202">
+<div class="sourcedoc-section section-root section-level-3" id="f077232948287147c7ba2a21f9e6531d072e23c5">
 
 
   <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
@@ -339,7 +354,8 @@
           <code>Product</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        
+        <p>Product 创建的产品</p>
+
         </td>
       </tr>
       
@@ -364,7 +380,8 @@
 
       
 
-      <div class="sourcedoc-section section-comments"></div>
+      <div class="sourcedoc-section section-comments"><p>注册产品</p>
+</div>
 
       
       
@@ -390,7 +407,8 @@
           <code>product: Product</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        
+        <p>Product 用于注册的产品</p>
+
         </td>
       </tr>
       
@@ -534,6 +552,14 @@
     
     <li>
         <a href="https://dp.fivezha.cn/wiki/模板模式">模板模式</a>
+    </li>
+    
+
+                
+                    
+    
+    <li>
+        <a href="https://dp.fivezha.cn/wiki/工厂模式">工厂模式</a>
     </li>
     
 
@@ -789,7 +815,7 @@
             
     
     <li>
-        <a href="#d4d0568475825384dacd435f6e8cc472ba7fc765">val owner: List&lt;Any&gt;</a>
+        <a href="#2433ef2e432c71ccf28756420dd948a9bd7d8145">val owner: Map&lt;String, String&gt;</a>
     </li>
     
 
@@ -823,7 +849,7 @@
             
     
     <li>
-        <a href="#3fe7300cbbff2bebdafecd4afe45da91b366f252">protected fun createProduct(owner: String): Product</a>
+        <a href="#5aeaa2d47fe43fa219b17ae53b176254099a6002">protected fun createProduct(owner: String, id: String): Product</a>
     </li>
     
 
@@ -889,9 +915,9 @@
 <!-- start:inject scripts -->
 <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script  src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
-<script  src="https://dp.fivezha.cn/Editorial/616d4797/assets/js/editorial_util.js"></script>
-<script  src="https://dp.fivezha.cn/Editorial/616d4797/assets/js/editorial_main.js"></script>
-<script  src="https://dp.fivezha.cn/Editorial/616d4797/assets/js/editorial_orchidCustomizations.js"></script>
+<script  src="https://dp.fivezha.cn/Editorial/36e42ff1/assets/js/editorial_util.js"></script>
+<script  src="https://dp.fivezha.cn/Editorial/36e42ff1/assets/js/editorial_main.js"></script>
+<script  src="https://dp.fivezha.cn/Editorial/36e42ff1/assets/js/editorial_orchidCustomizations.js"></script>
 <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script  src="https://unpkg.com/lunr/lunr.js"></script>
 <script  src="https://dp.fivezha.cn/assets/js/orchidSearch.js"></script>

@@ -23,12 +23,14 @@
 
 
 
-<title>factory.idcard</title>
+<title>工厂模式</title>
 
 
 <meta name="description" content="用kotlin实现设计模式">
 
 
+
+<link rel="prev" href="https://dp.fivezha.cn/wiki/模板模式">
 
 
 
@@ -37,7 +39,6 @@
 <link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/36e42ff1/assets/css/editorial_orchidCustomizations.css"  />
 <link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/36e42ff1/assets/css/orchidSearch.css"  />
 <link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/assets/css/orchidSearch.css"  />
-<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/assets/css/orchidSourceDoc.css"  />
 <!-- end:inject styles -->
 
 
@@ -51,20 +52,20 @@
 <!-- Class: com.eden.orchid.editorial.EditorialTheme -->
 
 <!-- PAGE -->
-<!-- Type: packages -->
-<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocPage -->
+<!-- Type: wiki -->
+<!-- Class: com.eden.orchid.wiki.pages.WikiPage -->
 <!-- Layout: index -->
 <!-- Resolved Layout: templates/layouts/index.peb -->
-<!-- Page Template: kotlindocPackage, sourceDocPage, packages, page -->
-<!-- Resolved Page Template: templates/pages/sourceDocPage.peb -->
+<!-- Page Template: wiki, page -->
+<!-- Resolved Page Template: templates/pages/page.peb -->
 
 <!-- RESOURCE -->
-<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocResource -->
-<!-- Source Filename:  -->
+<!-- Class: com.eden.orchid.api.resources.resource.FileResource -->
+<!-- Source Filename: wiki/工厂模式.md -->
 
 <!-- COMPLETE PAGE CONFIGURATION -->
 <script>
-    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://dp.fivezha.cn","fileName":"factory/idcard","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/kotlindoc/factory/idcard"},"description":"","title":"factory.idcard"};
+    window.allData = {"reference":{"path":"wiki","baseUrl":"https://dp.fivezha.cn","fileName":"工厂模式","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/wiki/工厂模式"},"previous":{"path":"wiki","baseUrl":"https://dp.fivezha.cn","fileName":"模板模式","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/wiki/模板模式"},"description":"","title":"工厂模式"};
 </script>
 
 <!-- end:debug info -->
@@ -158,7 +159,7 @@
             
             
                 <section id="pageContent">
-                    <header class="major"><h2>factory.idcard</h2></header>
+                    <header class="major"><h2>工厂模式</h2></header>
                     <article>
                         
     <!-- start:inject components -->
@@ -167,90 +168,65 @@
             
                 
                     
-                        <div class="sourcedoc-page orchid-sourcedoc content">
-  
-<div class="sourcedoc-section section-root section-level-1" id="factory.idcard">
-
-
-  
-
-  
-    <div class="sourcedoc-section section-element" id="5ada6944bde4a2ec0fd4d812c13966851215c32e">
-      
-      <p class="sourcedoc-section section-signature">
-        <code>package factory.idcard</code>
-      </p>
-
-      
-        
-    <!-- start:inject components -->
-    
-    <!-- end:inject components -->
-
-
-      
-
-      <div class="sourcedoc-section section-comments"></div>
-
-      
-      
-        
-          
-<div class="sourcedoc-section section-root section-level-2" id="classes">
-
-
-  <p class="sourcedoc-section section-name"><strong>Classes</strong></p>
-
-  <div class="table-container">
-    <table class="table is-fullwidth is-bordered">
-      <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-      </thead>
-      <tbody>
-      
-      <tr class="sourcedoc-section section-element" id="7855896bf8d35294c64d78e192a08c10f17b050a">
-        <td class="sourcedoc-section section-signature">
-          <code>class IDCard: Product</code>
-        </td>
-        <td class="sourcedoc-section section-comments content">
-        <p>id 卡示例</p>
-
-        </td>
-      </tr>
-      
-      <tr class="sourcedoc-section section-element" id="6fe46d89025db3587e6e5ac51db5f48e6588cbb5">
-        <td class="sourcedoc-section section-signature">
-          <code>class IDCardFactory: Factory</code>
-        </td>
-        <td class="sourcedoc-section section-comments content">
-        <p>ID卡工厂</p>
-
-        </td>
-      </tr>
-      
-      </tbody>
-    </table>
-  </div>
-
-
-</div>
-
-        
-      
-    </div>
-  
-
-</div>
-
-</div>
-
-
-
-
-
+                        <h1 id="工厂模式"><a href="#工厂模式" id="工厂模式" class="anchor"></a>工厂模式</h1>
+<p>用模板方法构建生成示例的工厂</p>
+<h2 id="使用模式与开发人员之间的沟通"><a href="#使用模式与开发人员之间的沟通" id="使用模式与开发人员之间的沟通" class="anchor"></a>使用模式与开发人员之间的沟通</h2>
+<p>建议在程序注释中和开发文档中记录所使用的设计模式的名称和意图</p>
+<h2 id="实例方法三种方式"><a href="#实例方法三种方式" id="实例方法三种方式" class="anchor"></a>实例方法三种方式</h2>
+<pre><code class="language-kotlin">/**
+ * 工厂抽象类
+ */
+abstract class Factory {
+    /**
+     * 创建产品抽象方法
+     * @param owner String
+     * @return Product
+     */
+    protected abstract fun createProduct(owner: String): Product
+}
+</code></pre>
+<pre><code class="language-kotlin">/**
+ * 工厂类
+ */
+class Factory {
+    /**
+     * 创建产品抽象方法
+     * @param owner String
+     * @return Product
+     */
+    fun createProduct(owner: String): Product = Product(owner)
+}
+</code></pre>
+<pre><code class="language-kotlin">/**
+ * 工厂类
+ */
+class Factory {
+    /**
+     * 创建产品抽象方法
+     * @param owner String
+     */
+    fun createProduct(owner: String): Product {
+        // 这里需要自己写异常类
+        throw FactoryRuntimeException()
+    }
+}
+</code></pre>
+<h2 id="习题"><a href="#习题" id="习题" class="anchor"></a>习题</h2>
+<h3 id="41"><a href="#41" id="41" class="anchor"></a>4.1</h3>
+<p>只能通过create进行创建</p>
+<p>或者是单例模式示例</p>
+<h3 id="43"><a href="#43" id="43" class="anchor"></a>4.3</h3>
+<pre><code class="language-kotlin">/**
+ * 产品抽象类
+ */
+abstract class Product constructor(name: String) {
+    /**
+     * 使用函数
+     */
+    abstract fun use()
+}
+</code></pre>
+<p>会报错，原因是子类继承父类的抽象方法的时候需要实现父类的构造方法</p>
 
                     
                 
@@ -270,6 +246,12 @@
         <div class="inner">
     <footer id="footer">
         <div class="clearfix">
+            
+                <div class="float-left">
+                    <a href="https://dp.fivezha.cn/wiki/模板模式" class="button special small pill">
+                        <span>&larr;</span> 模板模式
+                    </a>
+                </div>
             
             
         </div>
@@ -569,40 +551,6 @@
     
     <li>
         <a href="https://dp.fivezha.cn/kotlindoc/template">template</a>
-    </li>
-    
-
-        
-        </ul>
-    </li>
-
-                
-            </ul>
-        </nav>
-        
-        <nav class="menu">
-            <header class="major">
-                <h2>factory.idcard</h2>
-            </header>
-            <ul class="top-level">
-                
-                    
-    <li>
-        <span class="opener">Classes</span>
-        <ul>
-        
-            
-    
-    <li>
-        <a href="#7855896bf8d35294c64d78e192a08c10f17b050a">class IDCard: Product</a>
-    </li>
-    
-
-        
-            
-    
-    <li>
-        <a href="#6fe46d89025db3587e6e5ac51db5f48e6588cbb5">class IDCardFactory: Factory</a>
     </li>
     
 

@@ -89,7 +89,7 @@
                     },
                     "description": "",
                     "title": "Factory",
-                    "content": "<p><init><\/p>\n<p>create<\/p>\n<p>createProduct<\/p>\n<p>registerProduct<\/p>\n"
+                    "content": "<p>工厂抽象类<\/p><init>\n<p>工厂抽象类<\/p>\ncreate\n<p>创建产品<\/p>\ncreateProduct\n<p>创建产品抽象方法<\/p>\nregisterProduct\n<p>注册产品的抽象方法<\/p>\n"
                   }]
                 },
                 "product": {
@@ -105,7 +105,7 @@
                     },
                     "description": "",
                     "title": "Product",
-                    "content": "<p><init><\/p>\n<p>use<\/p>\n"
+                    "content": "<p>产品抽象类<\/p><init>\n<p>产品抽象类<\/p>\nuse\n<p>使用函数<\/p>\n"
                   }]
                 }
               },
@@ -120,7 +120,7 @@
                 },
                 "description": "",
                 "title": "factory.framework",
-                "content": "<p>Factory<\/p>\n<p>Product<\/p>\n"
+                "content": "<p>Factory<\/p>\n<p>工厂抽象类<\/p>\nProduct\n<p>产品抽象类<\/p>\n"
               }]
             },
             "idcard": {
@@ -139,7 +139,7 @@
                     },
                     "description": "",
                     "title": "IDCard",
-                    "content": "<p>owner<\/p>\n<p><init><\/p>\n<p>use<\/p>\n"
+                    "content": "<p>id 卡示例<\/p>owner\n<p>String  卡所有者字符串<\/p>\nid\n<p><init><\/p>\n<p>输出创建语句<\/p>\nuse\n<p>使用函数实现<\/p>\n"
                   }]
                 },
                 "idcardfactory": {
@@ -155,7 +155,7 @@
                     },
                     "description": "",
                     "title": "IDCardFactory",
-                    "content": "<p>owner<\/p>\n<p><init><\/p>\n<p>createProduct<\/p>\n<p>registerProduct<\/p>\n"
+                    "content": "<p>ID卡工厂<\/p>owner\n<p>Map<String, String> 对外的拥有者<\/p>\n<init>\n<p>ID卡工厂<\/p>\ncreateProduct\n<p>创建产品<\/p>\nregisterProduct\n<p>注册产品<\/p>\n"
                   }]
                 }
               },
@@ -170,7 +170,7 @@
                 },
                 "description": "",
                 "title": "factory.idcard",
-                "content": "<p>IDCard<\/p>\n<p>IDCardFactory<\/p>\n"
+                "content": "<p>IDCard<\/p>\n<p>id 卡示例<\/p>\nIDCardFactory\n<p>ID卡工厂<\/p>\n"
               }]
             }
           }
@@ -456,7 +456,7 @@
         },
         "description": "",
         "title": "README",
-        "content": "<h1 id=\"designpatterns\"><a href=\"#designpatterns\" id=\"designpatterns\" class=\"anchor\"><\/a>DesignPatterns<\/h1>\n<p><img src=\"https://img.shields.io/badge/language-kotlin-orange.svg\" alt=\"kotlin\" /> <img src=\"https://img.shields.io/badge/license-Apache2.0-brightgreen.svg\" alt=\"apache\" /> <a href=\"https://codecov.io/gh/xmmmmmovo/DesignPatterns\"><img src=\"https://codecov.io/gh/xmmmmmovo/DesignPatterns/branch/main/graph/badge.svg?token=YBKKJH8EAK\" alt=\"codecov\" /><\/a><\/p>\n<p>设计模式<\/p>\n<p>文档：https://dp.fivezha.cn<\/p>\n<p><strong>不要只使用具体类来编程，要优先使用接口来编程<\/strong><\/p>\n<ul>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Iterator模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Adapter模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Template模式<\/li>\n<\/ul>\n"
+        "content": "<h1 id=\"designpatterns\"><a href=\"#designpatterns\" id=\"designpatterns\" class=\"anchor\"><\/a>DesignPatterns<\/h1>\n<p><img src=\"https://img.shields.io/badge/language-kotlin-orange.svg\" alt=\"kotlin\" /> <img src=\"https://img.shields.io/badge/license-Apache2.0-brightgreen.svg\" alt=\"apache\" /> <a href=\"https://codecov.io/gh/xmmmmmovo/DesignPatterns\"><img src=\"https://codecov.io/gh/xmmmmmovo/DesignPatterns/branch/main/graph/badge.svg?token=YBKKJH8EAK\" alt=\"codecov\" /><\/a><\/p>\n<p>设计模式<\/p>\n<p>文档：https://dp.fivezha.cn<\/p>\n<p><strong>不要只使用具体类来编程，要优先使用接口来编程<\/strong><\/p>\n<ul>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Iterator模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Adapter模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Template模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Factory模式<\/li>\n<\/ul>\n"
       }]
     },
     "wiki": {
@@ -491,7 +491,7 @@
             },
             "description": "",
             "title": "适配器模式",
-            "content": "<h2 id=\"适配器方法\"><a href=\"#适配器方法\" id=\"适配器方法\" class=\"anchor\"><\/a>适配器方法<\/h2>\n<p>适配器出现的原因是因为原生程序无法被直接使用，需要中间套一层用以满足新需求。<\/p>\n<p>因为开发中经常会用到现有的类，特别是当现有的类已经被充分测试正确之后，这样的话如果出现新的需求，便可以快速的对于现有类进行适配<\/p>\n<h3 id=\"继承关系的适配器\"><a href=\"#继承关系的适配器\" id=\"继承关系的适配器\" class=\"anchor\"><\/a>继承关系的适配器<\/h3>\n<h3 id=\"委托关系的适配器\"><a href=\"#委托关系的适配器\" id=\"委托关系的适配器\" class=\"anchor\"><\/a>委托关系的适配器<\/h3>\n"
+            "content": "<h2 id=\"适配器方法\"><a href=\"#适配器方法\" id=\"适配器方法\" class=\"anchor\"><\/a>适配器方法<\/h2>\n<p>适配器出现的原因是因为原生程序无法被直接使用，需要中间套一层用以满足新需求。<\/p>\n<p>因为开发中经常会用到现有的类，特别是当现有的类已经被充分测试正确之后，这样的话如果出现新的需求，便可以快速的对于现有类进行适配<\/p>\n<h3 id=\"继承关系的适配器\"><a href=\"#继承关系的适配器\" id=\"继承关系的适配器\" class=\"anchor\"><\/a>继承关系的适配器<\/h3>\n<h3 id=\"委托关系的适配器\"><a href=\"#委托关系的适配器\" id=\"委托关系的适配器\" class=\"anchor\"><\/a>委托关系的适配器<\/h3>\n<h2 id=\"习题\"><a href=\"#习题\" id=\"习题\" class=\"anchor\"><\/a>习题<\/h2>\n<h3 id=\"21\"><a href=\"#21\" id=\"21\" class=\"anchor\"><\/a>2.1<\/h3>\n<p>防止出现转换异常，同时面向接口思想进行编程，非接口方法就不会使用<\/p>\n<h3 id=\"22\"><a href=\"#22\" id=\"22\" class=\"anchor\"><\/a>2.2<\/h3>\n<p>编写适配器类抽象<code>Properties<\/code>类<\/p>\n"
           }]
         },
         "迭代器模式": {
@@ -515,7 +515,7 @@
             },
             "description": "",
             "title": "迭代器模式",
-            "content": "<h1 id=\"迭代器模式\"><a href=\"#迭代器模式\" id=\"迭代器模式\" class=\"anchor\"><\/a>迭代器模式<\/h1>\n<ul>\n<li>next()方法：返回当前元素，并指向下一个元素<\/li>\n<li>hasNext()方法：确认接下来是否可以调用next方法<\/li>\n<\/ul>\n"
+            "content": "<h1 id=\"迭代器模式\"><a href=\"#迭代器模式\" id=\"迭代器模式\" class=\"anchor\"><\/a>迭代器模式<\/h1>\n<ul>\n<li>next()方法：返回当前元素，并指向下一个元素<\/li>\n<li>hasNext()方法：确认接下来是否可以调用next方法<\/li>\n<\/ul>\n<h2 id=\"习题\"><a href=\"#习题\" id=\"习题\" class=\"anchor\"><\/a>习题<\/h2>\n<h3 id=\"11\"><a href=\"#11\" id=\"11\" class=\"anchor\"><\/a>1.1<\/h3>\n<p>用ArrayList改写源程序<\/p>\n"
           }]
         },
         "模板模式": {
@@ -529,6 +529,14 @@
               "usePrettyUrl": true,
               "link": "https://dp.fivezha.cn/wiki/模板模式"
             },
+            "next": {
+              "path": "wiki",
+              "baseUrl": "https://dp.fivezha.cn",
+              "fileName": "工厂模式",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "https://dp.fivezha.cn/wiki/工厂模式"
+            },
             "previous": {
               "path": "wiki",
               "baseUrl": "https://dp.fivezha.cn",
@@ -539,7 +547,31 @@
             },
             "description": "",
             "title": "模板模式",
-            "content": "<h1 id=\"模板模式\"><a href=\"#模板模式\" id=\"模板模式\" class=\"anchor\"><\/a>模板模式<\/h1>\n<h2 id=\"父类对子类的要求\"><a href=\"#父类对子类的要求\" id=\"父类对子类的要求\" class=\"anchor\"><\/a>父类对子类的要求<\/h2>\n<p>理解类的层次时，通常是站在子类的角度进行思考的。<\/p>\n<ul>\n<li>在子类中可以使用父类中定义的方法<\/li>\n<li>可以通过在子类中增加的方法以实现新的功能<\/li>\n<li>在子类中重写父类的方法可以改变程序的行为<\/li>\n<\/ul>\n<p>声明抽象方法是希望达到以下的目的<\/p>\n<ul>\n<li>期待子类去实现抽象方法<\/li>\n<li>要求子类去实现抽象方法<\/li>\n<\/ul>\n<p>本模式也证明了抽象类的作用<\/p>\n"
+            "content": "<h1 id=\"模板模式\"><a href=\"#模板模式\" id=\"模板模式\" class=\"anchor\"><\/a>模板模式<\/h1>\n<h2 id=\"父类对子类的要求\"><a href=\"#父类对子类的要求\" id=\"父类对子类的要求\" class=\"anchor\"><\/a>父类对子类的要求<\/h2>\n<p>理解类的层次时，通常是站在子类的角度进行思考的。<\/p>\n<ul>\n<li>在子类中可以使用父类中定义的方法<\/li>\n<li>可以通过在子类中增加的方法以实现新的功能<\/li>\n<li>在子类中重写父类的方法可以改变程序的行为<\/li>\n<\/ul>\n<p>声明抽象方法是希望达到以下的目的<\/p>\n<ul>\n<li>期待子类去实现抽象方法<\/li>\n<li>要求子类去实现抽象方法<\/li>\n<\/ul>\n<p>本模式也证明了抽象类的作用<\/p>\n<h2 id=\"习题\"><a href=\"#习题\" id=\"习题\" class=\"anchor\"><\/a>习题<\/h2>\n<h3 id=\"32\"><a href=\"#32\" id=\"32\" class=\"anchor\"><\/a>3.2<\/h3>\n<p>不可再被实现<\/p>\n<h3 id=\"34\"><a href=\"#34\" id=\"34\" class=\"anchor\"><\/a>3.4<\/h3>\n<p>abstract存在final修饰，也可以写非abstract方法<\/p>\n"
+          }]
+        },
+        "工厂模式": {
+          "ownKey": "工厂模式",
+          "ownPages": [{
+            "reference": {
+              "path": "wiki",
+              "baseUrl": "https://dp.fivezha.cn",
+              "fileName": "工厂模式",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "https://dp.fivezha.cn/wiki/工厂模式"
+            },
+            "previous": {
+              "path": "wiki",
+              "baseUrl": "https://dp.fivezha.cn",
+              "fileName": "模板模式",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "https://dp.fivezha.cn/wiki/模板模式"
+            },
+            "description": "",
+            "title": "工厂模式",
+            "content": "<h1 id=\"工厂模式\"><a href=\"#工厂模式\" id=\"工厂模式\" class=\"anchor\"><\/a>工厂模式<\/h1>\n<p>用模板方法构建生成示例的工厂<\/p>\n<h2 id=\"使用模式与开发人员之间的沟通\"><a href=\"#使用模式与开发人员之间的沟通\" id=\"使用模式与开发人员之间的沟通\" class=\"anchor\"><\/a>使用模式与开发人员之间的沟通<\/h2>\n<p>建议在程序注释中和开发文档中记录所使用的设计模式的名称和意图<\/p>\n<h2 id=\"实例方法三种方式\"><a href=\"#实例方法三种方式\" id=\"实例方法三种方式\" class=\"anchor\"><\/a>实例方法三种方式<\/h2>\n<pre><code class=\"language-kotlin\">/**\n * 工厂抽象类\n */\nabstract class Factory {\n    /**\n     * 创建产品抽象方法\n     * @param owner String\n     * @return Product\n     */\n    protected abstract fun createProduct(owner: String): Product\n}\n<\/code><\/pre>\n<pre><code class=\"language-kotlin\">/**\n * 工厂类\n */\nclass Factory {\n    /**\n     * 创建产品抽象方法\n     * @param owner String\n     * @return Product\n     */\n    fun createProduct(owner: String): Product = Product(owner)\n}\n<\/code><\/pre>\n<pre><code class=\"language-kotlin\">/**\n * 工厂类\n */\nclass Factory {\n    /**\n     * 创建产品抽象方法\n     * @param owner String\n     */\n    fun createProduct(owner: String): Product {\n        // 这里需要自己写异常类\n        throw FactoryRuntimeException()\n    }\n}\n<\/code><\/pre>\n<h2 id=\"习题\"><a href=\"#习题\" id=\"习题\" class=\"anchor\"><\/a>习题<\/h2>\n<h3 id=\"41\"><a href=\"#41\" id=\"41\" class=\"anchor\"><\/a>4.1<\/h3>\n<p>只能通过create进行创建<\/p>\n<p>或者是单例模式示例<\/p>\n<h3 id=\"43\"><a href=\"#43\" id=\"43\" class=\"anchor\"><\/a>4.3<\/h3>\n<pre><code class=\"language-kotlin\">/**\n * 产品抽象类\n */\nabstract class Product constructor(name: String) {\n    /**\n     * 使用函数\n     */\n    abstract fun use()\n}\n<\/code><\/pre>\n<p>会报错，原因是子类继承父类的抽象方法的时候需要实现父类的构造方法<\/p>\n"
           }]
         }
       },
@@ -554,7 +586,7 @@
         },
         "description": "",
         "title": "Wiki",
-        "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"https://dp.fivezha.cn/wiki/迭代器模式\">迭代器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/适配器模式\">适配器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/模板模式\">模板模式<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+        "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"https://dp.fivezha.cn/wiki/迭代器模式\">迭代器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/适配器模式\">适配器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/模板模式\">模板模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/工厂模式\">工厂模式<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
       }]
     }
   },

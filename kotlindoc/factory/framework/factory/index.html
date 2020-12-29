@@ -33,9 +33,9 @@
 
 
 <!-- start:inject styles -->
-<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/616d4797/assets/css/editorial_main.css"  />
-<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/616d4797/assets/css/editorial_orchidCustomizations.css"  />
-<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/616d4797/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/36e42ff1/assets/css/editorial_main.css"  />
+<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/36e42ff1/assets/css/editorial_orchidCustomizations.css"  />
+<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/36e42ff1/assets/css/orchidSearch.css"  />
 <link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/assets/css/orchidSearch.css"  />
 <link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/assets/css/orchidSourceDoc.css"  />
 <!-- end:inject styles -->
@@ -190,7 +190,8 @@
 
       
 
-      <div class="sourcedoc-section section-comments"></div>
+      <div class="sourcedoc-section section-comments"><p>工厂抽象类</p>
+</div>
 
       
       
@@ -216,7 +217,8 @@
           <code>constructor()</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        
+        <p>工厂抽象类</p>
+
         </td>
       </tr>
       
@@ -237,23 +239,24 @@
   
 
   
-    <div class="sourcedoc-section section-element" id="62c07839b8a2f6b028c8efde410e1a0560b39326">
+    <div class="sourcedoc-section section-element" id="790d21e3196738dfba0c13d47ec205dd701b8619">
       
       <h3 class="sourcedoc-section element-name">create</h3>
       
       <p class="sourcedoc-section section-signature">
-        <code>fun create(owner: String): Product</code>
+        <code>fun create(owner: String, id: String): Product</code>
       </p>
 
       
 
-      <div class="sourcedoc-section section-comments"></div>
+      <div class="sourcedoc-section section-comments"><p>创建产品</p>
+</div>
 
       
       
         
           
-<div class="sourcedoc-section section-root section-level-3" id="1b1b5f5b1762c1ec90cd65e11e0e54c8d94dc6d9">
+<div class="sourcedoc-section section-root section-level-3" id="9e738e6bbce8dc768882e14a550dd7ea7a4fac75">
 
 
   <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
@@ -273,6 +276,16 @@
           <code>owner: String</code>
         </td>
         <td class="sourcedoc-section section-comments content">
+        <p>String 所有者字符串</p>
+
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e1f6ec0980aa862c68cbaa8110e74551ae83ddd6">
+        <td class="sourcedoc-section section-signature">
+          <code>id: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
         
         </td>
       </tr>
@@ -286,7 +299,7 @@
 
         
           
-<div class="sourcedoc-section section-root section-level-3" id="274a42b6837bb187939596187310fc4f493584bc">
+<div class="sourcedoc-section section-root section-level-3" id="c27be3c6e8b6ed808e4c08c9167cc745460ea106">
 
 
   <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
@@ -306,7 +319,8 @@
           <code>Product</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        
+        <p>Product 生产的产品</p>
+
         </td>
       </tr>
       
@@ -321,23 +335,24 @@
       
     </div>
   
-    <div class="sourcedoc-section section-element" id="2bdf83942513b1a16d5db8426ce02cee38dd4eea">
+    <div class="sourcedoc-section section-element" id="7795f077fbb2918d0acb4eb01784878ece84e095">
       
       <h3 class="sourcedoc-section element-name">createProduct</h3>
       
       <p class="sourcedoc-section section-signature">
-        <code>protected abstract fun createProduct(owner: String): Product</code>
+        <code>protected abstract fun createProduct(owner: String, id: String): Product</code>
       </p>
 
       
 
-      <div class="sourcedoc-section section-comments"></div>
+      <div class="sourcedoc-section section-comments"><p>创建产品抽象方法</p>
+</div>
 
       
       
         
           
-<div class="sourcedoc-section section-root section-level-3" id="707ffafe46ab6b805a75829e4110dc1a7d7187ab">
+<div class="sourcedoc-section section-root section-level-3" id="c1bc3ea11b3e4e4b63d9409d82f47bd3ccfb2c7b">
 
 
   <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
@@ -357,7 +372,18 @@
           <code>owner: String</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        
+        <p>String</p>
+
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e1f6ec0980aa862c68cbaa8110e74551ae83ddd6">
+        <td class="sourcedoc-section section-signature">
+          <code>id: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>String</p>
+
         </td>
       </tr>
       
@@ -370,7 +396,7 @@
 
         
           
-<div class="sourcedoc-section section-root section-level-3" id="6484f7a734c67837bc38b7f5f844053674158468">
+<div class="sourcedoc-section section-root section-level-3" id="6aa40047eab6b0b424e2103b159e1267da45d3aa">
 
 
   <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
@@ -390,7 +416,8 @@
           <code>Product</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        
+        <p>Product</p>
+
         </td>
       </tr>
       
@@ -415,7 +442,8 @@
 
       
 
-      <div class="sourcedoc-section section-comments"></div>
+      <div class="sourcedoc-section section-comments"><p>注册产品的抽象方法</p>
+</div>
 
       
       
@@ -441,7 +469,8 @@
           <code>product: Product</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        
+        <p>Product</p>
+
         </td>
       </tr>
       
@@ -585,6 +614,14 @@
     
     <li>
         <a href="https://dp.fivezha.cn/wiki/模板模式">模板模式</a>
+    </li>
+    
+
+                
+                    
+    
+    <li>
+        <a href="https://dp.fivezha.cn/wiki/工厂模式">工厂模式</a>
     </li>
     
 
@@ -857,7 +894,7 @@
             
     
     <li>
-        <a href="#62c07839b8a2f6b028c8efde410e1a0560b39326">fun create(owner: String): Product</a>
+        <a href="#790d21e3196738dfba0c13d47ec205dd701b8619">fun create(owner: String, id: String): Product</a>
     </li>
     
 
@@ -865,7 +902,7 @@
             
     
     <li>
-        <a href="#2bdf83942513b1a16d5db8426ce02cee38dd4eea">protected abstract fun createProduct(owner: String): Product</a>
+        <a href="#7795f077fbb2918d0acb4eb01784878ece84e095">protected abstract fun createProduct(owner: String, id: String): Product</a>
     </li>
     
 
@@ -931,9 +968,9 @@
 <!-- start:inject scripts -->
 <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script  src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
-<script  src="https://dp.fivezha.cn/Editorial/616d4797/assets/js/editorial_util.js"></script>
-<script  src="https://dp.fivezha.cn/Editorial/616d4797/assets/js/editorial_main.js"></script>
-<script  src="https://dp.fivezha.cn/Editorial/616d4797/assets/js/editorial_orchidCustomizations.js"></script>
+<script  src="https://dp.fivezha.cn/Editorial/36e42ff1/assets/js/editorial_util.js"></script>
+<script  src="https://dp.fivezha.cn/Editorial/36e42ff1/assets/js/editorial_main.js"></script>
+<script  src="https://dp.fivezha.cn/Editorial/36e42ff1/assets/js/editorial_orchidCustomizations.js"></script>
 <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script  src="https://unpkg.com/lunr/lunr.js"></script>
 <script  src="https://dp.fivezha.cn/assets/js/orchidSearch.js"></script>
