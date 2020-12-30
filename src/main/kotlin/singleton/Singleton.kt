@@ -5,7 +5,8 @@
 package singleton
 
 /**
- * 这是线程安全的
+ * 这是线程安全的单例模式
+ * @author xmmmmmovo
  */
 object Singleton {
     init {

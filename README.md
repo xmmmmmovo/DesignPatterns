@@ -12,3 +12,4 @@
 - [x] Template模式
 - [x] Factory模式
 - [x] Singleton模式
+- [ ] Prototype模式
