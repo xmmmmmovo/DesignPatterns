@@ -170,6 +170,24 @@
                     
                         <h1 id="单例模式"><a href="#单例模式" id="单例模式" class="anchor"></a>单例模式</h1>
 <h2 id="习题"><a href="#习题" id="习题" class="anchor"></a>习题</h2>
+<h3 id="54"><a href="#54" id="54" class="anchor"></a>5.4</h3>
+<p>没有加并发锁，导致并发执行的时候有可能会出现不同实例的情况，所以此情况下不是线程安全的单例模式，所以是不严格的。</p>
+<p>改良后：</p>
+<pre><code class="language-java">    public class Singleton {
+
+        private static Singleton sInstance;
+
+        private Singleton() {}
+
+        public static synchronized Singleton getInstance() {
+            if (sInstance == null) {
+                sInstance = new Singleton();
+            }
+            return sInstance;
+        }
+
+    }
+</code></pre>
 
                     
                 

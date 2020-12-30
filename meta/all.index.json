@@ -121,7 +121,7 @@
                     },
                     "description": "",
                     "title": "Triple",
-                    "content": ""
+                    "content": "<p>instanceId<\/p>\n<p>Triple<\/p>\n"
                   }]
                 }
               },
@@ -655,7 +655,7 @@
             },
             "description": "",
             "title": "单例模式",
-            "content": "<h1 id=\"单例模式\"><a href=\"#单例模式\" id=\"单例模式\" class=\"anchor\"><\/a>单例模式<\/h1>\n<h2 id=\"习题\"><a href=\"#习题\" id=\"习题\" class=\"anchor\"><\/a>习题<\/h2>\n"
+            "content": "<h1 id=\"单例模式\"><a href=\"#单例模式\" id=\"单例模式\" class=\"anchor\"><\/a>单例模式<\/h1>\n<h2 id=\"习题\"><a href=\"#习题\" id=\"习题\" class=\"anchor\"><\/a>习题<\/h2>\n<h3 id=\"54\"><a href=\"#54\" id=\"54\" class=\"anchor\"><\/a>5.4<\/h3>\n<p>没有加并发锁，导致并发执行的时候有可能会出现不同实例的情况，所以此情况下不是线程安全的单例模式，所以是不严格的。<\/p>\n<p>改良后：<\/p>\n<pre><code class=\"language-java\">    public class Singleton {\n\n        private static Singleton sInstance;\n\n        private Singleton() {}\n\n        public static synchronized Singleton getInstance() {\n            if (sInstance == null) {\n                sInstance = new Singleton();\n            }\n            return sInstance;\n        }\n\n    }\n<\/code><\/pre>\n"
           }]
         },
         "工厂模式": {
