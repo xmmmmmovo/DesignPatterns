@@ -533,22 +533,40 @@
           "childrenPages": {
             "framework": {
               "ownKey": "framework",
-              "childrenPages": {"manager": {
-                "ownKey": "manager",
-                "ownPages": [{
-                  "reference": {
-                    "path": "kotlindoc",
-                    "baseUrl": "https://dp.fivezha.cn",
-                    "fileName": "prototype/framework/manager",
-                    "extension": "html",
-                    "usePrettyUrl": true,
-                    "link": "https://dp.fivezha.cn/kotlindoc/prototype/framework/manager"
-                  },
-                  "description": "",
-                  "title": "Manager",
-                  "content": "<p>使用Product来复制示例<\/p><init>\n<p>使用Product来复制示例<\/p>\nregister\n\ncreate\n\n"
-                }]
-              }},
+              "childrenPages": {
+                "product": {
+                  "ownKey": "product",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://dp.fivezha.cn",
+                      "fileName": "prototype/framework/product",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://dp.fivezha.cn/kotlindoc/prototype/framework/product"
+                    },
+                    "description": "",
+                    "title": "Product",
+                    "content": "<p>声明了抽象方法use和createClone接口<\/p><init>\n<p>声明了抽象方法use和createClone接口<\/p>\nuse\n<p>use抽象方法\n如何使用交给子类进行实现<\/p>\ncreateClone\n<p>返回产品克隆<\/p>\n"
+                  }]
+                },
+                "manager": {
+                  "ownKey": "manager",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://dp.fivezha.cn",
+                      "fileName": "prototype/framework/manager",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://dp.fivezha.cn/kotlindoc/prototype/framework/manager"
+                    },
+                    "description": "",
+                    "title": "Manager",
+                    "content": "<p>使用Product来复制示例<\/p><init>\n<p>使用Product来复制示例<\/p>\nregister\n\ncreate\n\n"
+                  }]
+                }
+              },
               "ownPages": [{
                 "reference": {
                   "path": "kotlindoc",
@@ -560,7 +578,7 @@
                 },
                 "description": "",
                 "title": "prototype.framework",
-                "content": "<p>Manager<\/p>\n<p>使用Product来复制示例<\/p>\n"
+                "content": "<p>Manager<\/p>\n<p>使用Product来复制示例<\/p>\nProduct\n<p>声明了抽象方法use和createClone接口<\/p>\n"
               }]
             },
             "underlinepen": {
@@ -576,7 +594,7 @@
                 },
                 "description": "",
                 "title": "UnderlinePen",
-                "content": "<p><init><\/p>\n<p>use<\/p>\n"
+                "content": "<p><init><\/p>\n<p>use<\/p>\n<p>use抽象方法\n如何使用交给子类进行实现<\/p>\n"
               }]
             },
             "messagebox": {
@@ -592,7 +610,7 @@
                 },
                 "description": "",
                 "title": "MessageBox",
-                "content": "<p><init><\/p>\n<p>use<\/p>\n"
+                "content": "<p><init><\/p>\n<p>use<\/p>\n<p>use抽象方法\n如何使用交给子类进行实现<\/p>\n"
               }]
             }
           },

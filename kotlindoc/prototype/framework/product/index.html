@@ -23,7 +23,7 @@
 
 
 
-<title>CharDisplay</title>
+<title>Product</title>
 
 
 <meta name="description" content="用kotlin实现设计模式">
@@ -64,7 +64,7 @@
 
 <!-- COMPLETE PAGE CONFIGURATION -->
 <script>
-    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://dp.fivezha.cn","fileName":"template/chardisplay","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/kotlindoc/template/chardisplay"},"description":"","title":"CharDisplay"};
+    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://dp.fivezha.cn","fileName":"prototype/framework/product","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/kotlindoc/prototype/framework/product"},"description":"","title":"Product"};
 </script>
 
 <!-- end:debug info -->
@@ -158,7 +158,7 @@
             
             
                 <section id="pageContent">
-                    <header class="major"><h2>CharDisplay</h2></header>
+                    <header class="major"><h2>Product</h2></header>
                     <article>
                         
     <!-- start:inject components -->
@@ -169,16 +169,16 @@
                     
                         <div class="sourcedoc-page orchid-sourcedoc content">
   
-<div class="sourcedoc-section section-root section-level-1" id="CharDisplay">
+<div class="sourcedoc-section section-root section-level-1" id="Product">
 
 
   
 
   
-    <div class="sourcedoc-section section-element" id="351d55f62c559251d74d97c165ddf7c52aadf04d">
+    <div class="sourcedoc-section section-element" id="b3f0ad932c9d0c722c8af0a3247adf7f3308928d">
       
       <p class="sourcedoc-section section-signature">
-        <code>class CharDisplay: AbstractDisplay</code>
+        <code>abstract class Product: Cloneable, Any</code>
       </p>
 
       
@@ -190,7 +190,7 @@
 
       
 
-      <div class="sourcedoc-section section-comments"><p>字符显示类</p>
+      <div class="sourcedoc-section section-comments"><p>声明了抽象方法use和createClone接口</p>
 </div>
 
       
@@ -200,29 +200,64 @@
 <div class="sourcedoc-section section-root section-level-2" id="constructors">
 
 
+  <p class="sourcedoc-section section-name"><strong>Constructors</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="d4613aad3f43ed7d2b370aabe518d8516ff827ff">
+        <td class="sourcedoc-section section-signature">
+          <code>constructor()</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>声明了抽象方法use和createClone接口</p>
+
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="methods">
+
+
   
-    <h2 class="sourcedoc-section section-name">Constructors</h2>
+    <h2 class="sourcedoc-section section-name">Methods</h2>
   
 
   
-    <div class="sourcedoc-section section-element" id="64c6c0db274a6292dc0191994040963fae4c97d1">
+    <div class="sourcedoc-section section-element" id="87a7136e919e2f49f7ebe741c9fb740ae3d911f7">
       
-      <h3 class="sourcedoc-section element-name">&lt;init&gt;</h3>
+      <h3 class="sourcedoc-section element-name">use</h3>
       
       <p class="sourcedoc-section section-signature">
-        <code>constructor(ch: Char)</code>
+        <code>abstract fun use(s: String)</code>
       </p>
 
       
 
-      <div class="sourcedoc-section section-comments"><p>初始化字符</p>
+      <div class="sourcedoc-section section-comments"><p>use抽象方法
+如何使用交给子类进行实现</p>
 </div>
 
       
       
         
           
-<div class="sourcedoc-section section-root section-level-3" id="d3b3e789802e3e6e722521d4653be901cdb3f75c">
+<div class="sourcedoc-section section-root section-level-3" id="2e9c6db6a0028bb220e567f95229f003c3404d25">
 
 
   <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
@@ -237,12 +272,13 @@
       </thead>
       <tbody>
       
-      <tr class="sourcedoc-section section-element" id="207ec78bd6c4430a6e8cee8a9f1d22af3f036ba8">
+      <tr class="sourcedoc-section section-element" id="e7668f505be4f84c60bf5da73888ed85e4347c89">
         <td class="sourcedoc-section section-signature">
-          <code>ch: Char</code>
+          <code>s: String</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        
+        <p>String</p>
+
         </td>
       </tr>
       
@@ -254,40 +290,8 @@
 </div>
 
         
-      
-    </div>
-  
-
-</div>
-
-        
           
-<div class="sourcedoc-section section-root section-level-2" id="methods">
-
-
-  
-    <h2 class="sourcedoc-section section-name">Methods</h2>
-  
-
-  
-    <div class="sourcedoc-section section-element" id="3b50d9006efcd7e34dae605b1ba39ee54af015aa">
-      
-      <h3 class="sourcedoc-section element-name">open</h3>
-      
-      <p class="sourcedoc-section section-signature">
-        <code>fun open()</code>
-      </p>
-
-      
-
-      <div class="sourcedoc-section section-comments"><p>打开</p>
-</div>
-
-      
-      
-        
-          
-<div class="sourcedoc-section section-root section-level-3" id="bf3112c0d4b40e787fc4a22b57769cef6e0a2867">
+<div class="sourcedoc-section section-root section-level-3" id="565d7da78b55c042823b1038a3d0bbfd2c39a61e">
 
 
   <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
@@ -322,24 +326,24 @@
       
     </div>
   
-    <div class="sourcedoc-section section-element" id="7a6daa9af17b7a515f9a739426d44b33d78ce38c">
+    <div class="sourcedoc-section section-element" id="6146d1e8e0b4f455df495f16d17d0319b66ca763">
       
-      <h3 class="sourcedoc-section element-name">print</h3>
+      <h3 class="sourcedoc-section element-name">createClone</h3>
       
       <p class="sourcedoc-section section-signature">
-        <code>fun print()</code>
+        <code>fun createClone(): Product</code>
       </p>
 
       
 
-      <div class="sourcedoc-section section-comments"><p>输出字符</p>
+      <div class="sourcedoc-section section-comments"><p>返回产品克隆</p>
 </div>
 
       
       
         
           
-<div class="sourcedoc-section section-root section-level-3" id="f9f3a08d8903eb4e82a7ae17e2ade80b964c2aae">
+<div class="sourcedoc-section section-root section-level-3" id="48ebc80cd4b7a7185ff584ba93803a7c3b9ef918">
 
 
   <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
@@ -354,64 +358,13 @@
       </thead>
       <tbody>
       
-      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+      <tr class="sourcedoc-section section-element" id="dd3b86d1ef21b9fb2e1edc30f524e7afb491b1ad">
         <td class="sourcedoc-section section-signature">
-          <code>Unit</code>
+          <code>Product</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        
-        </td>
-      </tr>
-      
-      </tbody>
-    </table>
-  </div>
+        <p>Product</p>
 
-
-</div>
-
-        
-      
-    </div>
-  
-    <div class="sourcedoc-section section-element" id="4c27f01d26d72614a93700ab579f81f1ee38be85">
-      
-      <h3 class="sourcedoc-section element-name">close</h3>
-      
-      <p class="sourcedoc-section section-signature">
-        <code>fun close()</code>
-      </p>
-
-      
-
-      <div class="sourcedoc-section section-comments"><p>关闭</p>
-</div>
-
-      
-      
-        
-          
-<div class="sourcedoc-section section-root section-level-3" id="c7803c40b95953ea15afb26f35ad7cdc0c9370f7">
-
-
-  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
-
-  <div class="table-container">
-    <table class="table is-fullwidth is-bordered">
-      <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-      </thead>
-      <tbody>
-      
-      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
-        <td class="sourcedoc-section section-signature">
-          <code>Unit</code>
-        </td>
-        <td class="sourcedoc-section section-comments content">
-        
         </td>
       </tr>
       
@@ -877,7 +830,7 @@
         
         <nav class="menu">
             <header class="major">
-                <h2>CharDisplay</h2>
+                <h2>Product</h2>
             </header>
             <ul class="top-level">
                 
@@ -889,7 +842,7 @@
             
     
     <li>
-        <a href="#64c6c0db274a6292dc0191994040963fae4c97d1">constructor(ch: Char)</a>
+        <a href="#d4613aad3f43ed7d2b370aabe518d8516ff827ff">constructor()</a>
     </li>
     
 
@@ -906,7 +859,7 @@
             
     
     <li>
-        <a href="#3b50d9006efcd7e34dae605b1ba39ee54af015aa">fun open()</a>
+        <a href="#87a7136e919e2f49f7ebe741c9fb740ae3d911f7">abstract fun use(s: String)</a>
     </li>
     
 
@@ -914,15 +867,7 @@
             
     
     <li>
-        <a href="#7a6daa9af17b7a515f9a739426d44b33d78ce38c">fun print()</a>
-    </li>
-    
-
-        
-            
-    
-    <li>
-        <a href="#4c27f01d26d72614a93700ab579f81f1ee38be85">fun close()</a>
+        <a href="#6146d1e8e0b4f455df495f16d17d0319b66ca763">fun createClone(): Product</a>
     </li>
     
 
