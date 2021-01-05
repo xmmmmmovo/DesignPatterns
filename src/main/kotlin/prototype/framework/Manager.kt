@@ -25,7 +25,7 @@ class Manager {
      * @param protoName Product
      * @return Product
      */
-    fun create(protoName: Product): Product {
+    fun create(protoName: String): Product {
         return showcase[protoName]?.createClone() ?: throw NullPointerException()
     }
 }

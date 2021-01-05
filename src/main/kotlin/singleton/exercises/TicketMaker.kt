@@ -17,5 +17,6 @@ object TicketMaker {
      * 下一张票
      * @return Int
      */
+    @Synchronized
     fun getNextTicketNumber() = ticket++
 }
