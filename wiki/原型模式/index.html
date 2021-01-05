@@ -23,12 +23,14 @@
 
 
 
-<title>Iterator</title>
+<title>原型模式</title>
 
 
 <meta name="description" content="用kotlin实现设计模式">
 
 
+
+<link rel="prev" href="https://dp.fivezha.cn/wiki/单例模式">
 
 
 
@@ -37,7 +39,6 @@
 <link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/5ce41dfb/assets/css/editorial_orchidCustomizations.css"  />
 <link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/Editorial/5ce41dfb/assets/css/orchidSearch.css"  />
 <link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/assets/css/orchidSearch.css"  />
-<link rel="stylesheet" type="text/css" href="https://dp.fivezha.cn/assets/css/orchidSourceDoc.css"  />
 <!-- end:inject styles -->
 
 
@@ -51,20 +52,20 @@
 <!-- Class: com.eden.orchid.editorial.EditorialTheme -->
 
 <!-- PAGE -->
-<!-- Type: classes -->
-<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocPage -->
+<!-- Type: wiki -->
+<!-- Class: com.eden.orchid.wiki.pages.WikiPage -->
 <!-- Layout: index -->
 <!-- Resolved Layout: templates/layouts/index.peb -->
-<!-- Page Template: kotlindocInterface, sourceDocPage, classes, page -->
-<!-- Resolved Page Template: templates/pages/sourceDocPage.peb -->
+<!-- Page Template: wiki, page -->
+<!-- Resolved Page Template: templates/pages/page.peb -->
 
 <!-- RESOURCE -->
-<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocResource -->
-<!-- Source Filename:  -->
+<!-- Class: com.eden.orchid.api.resources.resource.FileResource -->
+<!-- Source Filename: wiki/原型模式.md -->
 
 <!-- COMPLETE PAGE CONFIGURATION -->
 <script>
-    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://dp.fivezha.cn","fileName":"iterator/iterator","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/kotlindoc/iterator/iterator"},"description":"","title":"Iterator"};
+    window.allData = {"reference":{"path":"wiki","baseUrl":"https://dp.fivezha.cn","fileName":"原型模式","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/wiki/原型模式"},"previous":{"path":"wiki","baseUrl":"https://dp.fivezha.cn","fileName":"单例模式","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/wiki/单例模式"},"description":"","title":"原型模式"};
 </script>
 
 <!-- end:debug info -->
@@ -158,7 +159,7 @@
             
             
                 <section id="pageContent">
-                    <header class="major"><h2>Iterator</h2></header>
+                    <header class="major"><h2>原型模式</h2></header>
                     <article>
                         
     <!-- start:inject components -->
@@ -167,166 +168,17 @@
             
                 
                     
-                        <div class="sourcedoc-page orchid-sourcedoc content">
-  
-<div class="sourcedoc-section section-root section-level-1" id="Iterator">
-
-
-  
-
-  
-    <div class="sourcedoc-section section-element" id="e866c20daef20c733f70d74fc7e3afab4049d9cd">
-      
-      <p class="sourcedoc-section section-signature">
-        <code>interface Iterator&lt;T&gt; : Any</code>
-      </p>
-
-      
-        
-    <!-- start:inject components -->
-    
-    <!-- end:inject components -->
-
-
-      
-
-      <div class="sourcedoc-section section-comments"><p>迭代器本体</p>
-</div>
-
-      
-      
-        
-          
-<div class="sourcedoc-section section-root section-level-2" id="methods">
-
-
-  
-    <h2 class="sourcedoc-section section-name">Methods</h2>
-  
-
-  
-    <div class="sourcedoc-section section-element" id="8adb68099d602d5c9ddf118d8dbff7e2bc03cdec">
-      
-      <h3 class="sourcedoc-section element-name">hasNext</h3>
-      
-      <p class="sourcedoc-section section-signature">
-        <code>abstract fun hasNext(): Boolean</code>
-      </p>
-
-      
-
-      <div class="sourcedoc-section section-comments"><p>是否有下一个元素</p>
-</div>
-
-      
-      
-        
-          
-<div class="sourcedoc-section section-root section-level-3" id="933bb3d2d9fcc9ab7dcca90a56aca7ffb67eb81d">
-
-
-  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
-
-  <div class="table-container">
-    <table class="table is-fullwidth is-bordered">
-      <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-      </thead>
-      <tbody>
-      
-      <tr class="sourcedoc-section section-element" id="b76ff4906f33c2dd97ddd929b9662ba8cac6174c">
-        <td class="sourcedoc-section section-signature">
-          <code>Boolean</code>
-        </td>
-        <td class="sourcedoc-section section-comments content">
-        <p>Boolean 返回是否有</p>
-
-        </td>
-      </tr>
-      
-      </tbody>
-    </table>
-  </div>
-
-
-</div>
-
-        
-      
-    </div>
-  
-    <div class="sourcedoc-section section-element" id="fd984457b41dd8742d6c93e572e6817c8bd3d36a">
-      
-      <h3 class="sourcedoc-section element-name">next</h3>
-      
-      <p class="sourcedoc-section section-signature">
-        <code>abstract fun next(): T</code>
-      </p>
-
-      
-
-      <div class="sourcedoc-section section-comments"><p>返回下一个元素</p>
-</div>
-
-      
-      
-        
-          
-<div class="sourcedoc-section section-root section-level-3" id="84f695f66b5e319871ee5f1df86c97b4caa8335c">
-
-
-  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
-
-  <div class="table-container">
-    <table class="table is-fullwidth is-bordered">
-      <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-      </thead>
-      <tbody>
-      
-      <tr class="sourcedoc-section section-element" id="c2c53d66948214258a26ca9ca845d7ac0c17f8e7">
-        <td class="sourcedoc-section section-signature">
-          <code>T</code>
-        </td>
-        <td class="sourcedoc-section section-comments content">
-        <p>T 下一个元素</p>
-
-        </td>
-      </tr>
-      
-      </tbody>
-    </table>
-  </div>
-
-
-</div>
-
-        
-      
-    </div>
-  
-
-</div>
-
-        
-      
-    </div>
-  
-
-</div>
-
-</div>
-
-
-
-
-
+                        <h1 id="原型模式"><a href="#原型模式" id="原型模式" class="anchor"></a>原型模式</h1>
+<p>Product接口和Manager类的代码中完全没有出现其他的类名，也就意味着我们可以独立地修改Product接口和Manager类中的内容</p>
+<p><strong>一旦在类中使用到了别的类名，就意味着该类与其他类紧密地耦合在了一起。</strong></p>
+<h2 id="角色"><a href="#角色" id="角色" class="anchor"></a>角色</h2>
+<h3 id="原型"><a href="#原型" id="原型" class="anchor"></a>原型</h3>
+<p>Product角色负责实现复制现有实例来生成新的实例的方法。</p>
+<h3 id="具体的原型"><a href="#具体的原型" id="具体的原型" class="anchor"></a>具体的原型</h3>
+<p>负责实现复制现有实例并生成心得示例的方法</p>
+<h3 id="使用者"><a href="#使用者" id="使用者" class="anchor"></a>使用者</h3>
+<p>负责使用复制实例的方法生成新的实例</p>
+<h2 id="习题"><a href="#习题" id="习题" class="anchor"></a>习题</h2>
 
                     
                 
@@ -346,6 +198,12 @@
         <div class="inner">
     <footer id="footer">
         <div class="clearfix">
+            
+                <div class="float-left">
+                    <a href="https://dp.fivezha.cn/wiki/单例模式" class="button special small pill">
+                        <span>&larr;</span> 单例模式
+                    </a>
+                </div>
             
             
         </div>
@@ -741,40 +599,6 @@
     
     <li>
         <a href="https://dp.fivezha.cn/kotlindoc/template">template</a>
-    </li>
-    
-
-        
-        </ul>
-    </li>
-
-                
-            </ul>
-        </nav>
-        
-        <nav class="menu">
-            <header class="major">
-                <h2>Iterator</h2>
-            </header>
-            <ul class="top-level">
-                
-                    
-    <li>
-        <span class="opener">Methods</span>
-        <ul>
-        
-            
-    
-    <li>
-        <a href="#8adb68099d602d5c9ddf118d8dbff7e2bc03cdec">abstract fun hasNext(): Boolean</a>
-    </li>
-    
-
-        
-            
-    
-    <li>
-        <a href="#fd984457b41dd8742d6c93e572e6817c8bd3d36a">abstract fun next(): T</a>
     </li>
     
 

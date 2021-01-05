@@ -86,7 +86,7 @@
                 },
                 "description": "",
                 "title": "Singleton",
-                "content": "<p>这是线程安全的<\/p>\n"
+                "content": "<p>这是线程安全的单例模式<\/p>\n"
               }]
             },
             "exercises": {
@@ -105,7 +105,7 @@
                     },
                     "description": "",
                     "title": "TicketMaker",
-                    "content": "<p>getNextTicketNumber<\/p>\n"
+                    "content": "<p>加票类<\/p>getNextTicketNumber\n<p>下一张票<\/p>\n"
                   }]
                 },
                 "triple": {
@@ -121,7 +121,7 @@
                     },
                     "description": "",
                     "title": "Triple",
-                    "content": "<p>instanceId<\/p>\n<p>Triple<\/p>\n"
+                    "content": "<p>最多生成三个单例的类<\/p>instanceId\n<p>Int 单例id<\/p>\nTriple\n<p>最多生成三个单例的类<\/p>\n"
                   }]
                 }
               },
@@ -136,7 +136,7 @@
                 },
                 "description": "",
                 "title": "singleton.exercises",
-                "content": "<p>TicketMaker<\/p>\n<p>Triple<\/p>\n"
+                "content": "<p>TicketMaker<\/p>\n<p>加票类<\/p>\nTriple\n<p>最多生成三个单例的类<\/p>\n"
               }]
             }
           },
@@ -151,7 +151,7 @@
             },
             "description": "",
             "title": "singleton",
-            "content": "<p>Singleton<\/p>\n<p>这是线程安全的<\/p>\nsingleton.exercises\n"
+            "content": "<p>Singleton<\/p>\n<p>这是线程安全的单例模式<\/p>\nsingleton.exercises\n"
           }]
         },
         "factory": {
@@ -527,6 +527,88 @@
               }]
             }
           }
+        },
+        "prototype": {
+          "ownKey": "prototype",
+          "childrenPages": {
+            "framework": {
+              "ownKey": "framework",
+              "childrenPages": {"manager": {
+                "ownKey": "manager",
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://dp.fivezha.cn",
+                    "fileName": "prototype/framework/manager",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://dp.fivezha.cn/kotlindoc/prototype/framework/manager"
+                  },
+                  "description": "",
+                  "title": "Manager",
+                  "content": "<p>使用Product来复制示例<\/p><init>\n<p>使用Product来复制示例<\/p>\nregister\n\ncreate\n\n"
+                }]
+              }},
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://dp.fivezha.cn",
+                  "fileName": "prototype/framework",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://dp.fivezha.cn/kotlindoc/prototype/framework"
+                },
+                "description": "",
+                "title": "prototype.framework",
+                "content": "<p>Manager<\/p>\n<p>使用Product来复制示例<\/p>\n"
+              }]
+            },
+            "underlinepen": {
+              "ownKey": "underlinepen",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://dp.fivezha.cn",
+                  "fileName": "prototype/underlinepen",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://dp.fivezha.cn/kotlindoc/prototype/underlinepen"
+                },
+                "description": "",
+                "title": "UnderlinePen",
+                "content": "<p><init><\/p>\n<p>use<\/p>\n"
+              }]
+            },
+            "messagebox": {
+              "ownKey": "messagebox",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://dp.fivezha.cn",
+                  "fileName": "prototype/messagebox",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://dp.fivezha.cn/kotlindoc/prototype/messagebox"
+                },
+                "description": "",
+                "title": "MessageBox",
+                "content": "<p><init><\/p>\n<p>use<\/p>\n"
+              }]
+            }
+          },
+          "ownPages": [{
+            "reference": {
+              "path": "kotlindoc",
+              "baseUrl": "https://dp.fivezha.cn",
+              "fileName": "prototype",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "https://dp.fivezha.cn/kotlindoc/prototype"
+            },
+            "description": "",
+            "title": "prototype",
+            "content": "<p>MessageBox<\/p>\n<p>UnderlinePen<\/p>\n<p>prototype.framework<\/p>\n"
+          }]
         }
       },
       "ownPages": [{
@@ -540,12 +622,36 @@
         },
         "description": "",
         "title": "README",
-        "content": "<h1 id=\"designpatterns\"><a href=\"#designpatterns\" id=\"designpatterns\" class=\"anchor\"><\/a>DesignPatterns<\/h1>\n<p><img src=\"https://img.shields.io/badge/language-kotlin-orange.svg\" alt=\"kotlin\" /> <img src=\"https://img.shields.io/badge/license-Apache2.0-brightgreen.svg\" alt=\"apache\" /> <a href=\"https://codecov.io/gh/xmmmmmovo/DesignPatterns\"><img src=\"https://codecov.io/gh/xmmmmmovo/DesignPatterns/branch/main/graph/badge.svg?token=YBKKJH8EAK\" alt=\"codecov\" /><\/a><\/p>\n<p>设计模式<\/p>\n<p>文档：https://dp.fivezha.cn<\/p>\n<p><strong>不要只使用具体类来编程，要优先使用接口来编程<\/strong><\/p>\n<ul>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Iterator模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Adapter模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Template模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Factory模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Singleton模式<\/li>\n<\/ul>\n"
+        "content": "<h1 id=\"designpatterns\"><a href=\"#designpatterns\" id=\"designpatterns\" class=\"anchor\"><\/a>DesignPatterns<\/h1>\n<p><img src=\"https://img.shields.io/badge/language-kotlin-orange.svg\" alt=\"kotlin\" /> <img src=\"https://img.shields.io/badge/license-Apache2.0-brightgreen.svg\" alt=\"apache\" /> <a href=\"https://codecov.io/gh/xmmmmmovo/DesignPatterns\"><img src=\"https://codecov.io/gh/xmmmmmovo/DesignPatterns/branch/main/graph/badge.svg?token=YBKKJH8EAK\" alt=\"codecov\" /><\/a><\/p>\n<p>设计模式<\/p>\n<p>文档：https://dp.fivezha.cn<\/p>\n<p><strong>不要只使用具体类来编程，要优先使用接口来编程<\/strong><\/p>\n<ul>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Iterator模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Adapter模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Template模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Factory模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" checked=\"checked\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Singleton模式<\/li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"disabled\" readonly=\"readonly\" />&nbsp;Prototype模式<\/li>\n<\/ul>\n"
       }]
     },
     "wiki": {
       "ownKey": "wiki",
       "childrenPages": {
+        "原型模式": {
+          "ownKey": "原型模式",
+          "ownPages": [{
+            "reference": {
+              "path": "wiki",
+              "baseUrl": "https://dp.fivezha.cn",
+              "fileName": "原型模式",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "https://dp.fivezha.cn/wiki/原型模式"
+            },
+            "previous": {
+              "path": "wiki",
+              "baseUrl": "https://dp.fivezha.cn",
+              "fileName": "单例模式",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "https://dp.fivezha.cn/wiki/单例模式"
+            },
+            "description": "",
+            "title": "原型模式",
+            "content": "<h1 id=\"原型模式\"><a href=\"#原型模式\" id=\"原型模式\" class=\"anchor\"><\/a>原型模式<\/h1>\n<p>Product接口和Manager类的代码中完全没有出现其他的类名，也就意味着我们可以独立地修改Product接口和Manager类中的内容<\/p>\n<p><strong>一旦在类中使用到了别的类名，就意味着该类与其他类紧密地耦合在了一起。<\/strong><\/p>\n<h2 id=\"角色\"><a href=\"#角色\" id=\"角色\" class=\"anchor\"><\/a>角色<\/h2>\n<h3 id=\"原型\"><a href=\"#原型\" id=\"原型\" class=\"anchor\"><\/a>原型<\/h3>\n<p>Product角色负责实现复制现有实例来生成新的实例的方法。<\/p>\n<h3 id=\"具体的原型\"><a href=\"#具体的原型\" id=\"具体的原型\" class=\"anchor\"><\/a>具体的原型<\/h3>\n<p>负责实现复制现有实例并生成心得示例的方法<\/p>\n<h3 id=\"使用者\"><a href=\"#使用者\" id=\"使用者\" class=\"anchor\"><\/a>使用者<\/h3>\n<p>负责使用复制实例的方法生成新的实例<\/p>\n<h2 id=\"习题\"><a href=\"#习题\" id=\"习题\" class=\"anchor\"><\/a>习题<\/h2>\n"
+          }]
+        },
         "适配器模式": {
           "ownKey": "适配器模式",
           "ownPages": [{
@@ -645,6 +751,14 @@
               "usePrettyUrl": true,
               "link": "https://dp.fivezha.cn/wiki/单例模式"
             },
+            "next": {
+              "path": "wiki",
+              "baseUrl": "https://dp.fivezha.cn",
+              "fileName": "原型模式",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "https://dp.fivezha.cn/wiki/原型模式"
+            },
             "previous": {
               "path": "wiki",
               "baseUrl": "https://dp.fivezha.cn",
@@ -702,7 +816,7 @@
         },
         "description": "",
         "title": "Wiki",
-        "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"https://dp.fivezha.cn/wiki/迭代器模式\">迭代器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/适配器模式\">适配器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/模板模式\">模板模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/工厂模式\">工厂模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/单例模式\">单例模式<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+        "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"https://dp.fivezha.cn/wiki/迭代器模式\">迭代器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/适配器模式\">适配器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/模板模式\">模板模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/工厂模式\">工厂模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/单例模式\">单例模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/原型模式\">原型模式<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
       }]
     }
   },
@@ -718,7 +832,7 @@
       },
       "description": "",
       "title": "Home",
-      "content": "<h1 id=\"设计模式\"><a href=\"#设计模式\" id=\"设计模式\" class=\"anchor\"><\/a>设计模式<\/h1>\n"
+      "content": "<h1 id=\"设计模式\"><a href=\"#设计模式\" id=\"设计模式\" class=\"anchor\"><\/a>设计模式<\/h1>\n<p>本仓库是用<code>kotlin<\/code>对于常用设计模式进行的实现，并且对于后续课后题目也有实现。<\/p>\n"
     },
     {
       "reference": {

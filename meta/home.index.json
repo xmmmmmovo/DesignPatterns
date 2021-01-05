@@ -12,7 +12,7 @@
       },
       "description": "",
       "title": "Home",
-      "content": "<h1 id=\"设计模式\"><a href=\"#设计模式\" id=\"设计模式\" class=\"anchor\"><\/a>设计模式<\/h1>\n"
+      "content": "<h1 id=\"设计模式\"><a href=\"#设计模式\" id=\"设计模式\" class=\"anchor\"><\/a>设计模式<\/h1>\n<p>本仓库是用<code>kotlin<\/code>对于常用设计模式进行的实现，并且对于后续课后题目也有实现。<\/p>\n"
     },
     {
       "reference": {

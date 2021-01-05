@@ -23,7 +23,7 @@
 
 
 
-<title>Iterator</title>
+<title>Manager</title>
 
 
 <meta name="description" content="用kotlin实现设计模式">
@@ -55,7 +55,7 @@
 <!-- Class: com.eden.orchid.sourcedoc.page.SourceDocPage -->
 <!-- Layout: index -->
 <!-- Resolved Layout: templates/layouts/index.peb -->
-<!-- Page Template: kotlindocInterface, sourceDocPage, classes, page -->
+<!-- Page Template: kotlindocClass, sourceDocPage, classes, page -->
 <!-- Resolved Page Template: templates/pages/sourceDocPage.peb -->
 
 <!-- RESOURCE -->
@@ -64,7 +64,7 @@
 
 <!-- COMPLETE PAGE CONFIGURATION -->
 <script>
-    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://dp.fivezha.cn","fileName":"iterator/iterator","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/kotlindoc/iterator/iterator"},"description":"","title":"Iterator"};
+    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://dp.fivezha.cn","fileName":"prototype/framework/manager","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/kotlindoc/prototype/framework/manager"},"description":"","title":"Manager"};
 </script>
 
 <!-- end:debug info -->
@@ -158,7 +158,7 @@
             
             
                 <section id="pageContent">
-                    <header class="major"><h2>Iterator</h2></header>
+                    <header class="major"><h2>Manager</h2></header>
                     <article>
                         
     <!-- start:inject components -->
@@ -169,16 +169,16 @@
                     
                         <div class="sourcedoc-page orchid-sourcedoc content">
   
-<div class="sourcedoc-section section-root section-level-1" id="Iterator">
+<div class="sourcedoc-section section-root section-level-1" id="Manager">
 
 
   
 
   
-    <div class="sourcedoc-section section-element" id="e866c20daef20c733f70d74fc7e3afab4049d9cd">
+    <div class="sourcedoc-section section-element" id="4acb73a9212218b4487ff04153ef0bb9184bb972">
       
       <p class="sourcedoc-section section-signature">
-        <code>interface Iterator&lt;T&gt; : Any</code>
+        <code>class Manager: Any</code>
       </p>
 
       
@@ -190,11 +190,45 @@
 
       
 
-      <div class="sourcedoc-section section-comments"><p>迭代器本体</p>
+      <div class="sourcedoc-section section-comments"><p>使用Product来复制示例</p>
 </div>
 
       
       
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="constructors">
+
+
+  <p class="sourcedoc-section section-name"><strong>Constructors</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="d4613aad3f43ed7d2b370aabe518d8516ff827ff">
+        <td class="sourcedoc-section section-signature">
+          <code>constructor()</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>使用Product来复制示例</p>
+
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
         
           
 <div class="sourcedoc-section section-root section-level-2" id="methods">
@@ -205,24 +239,67 @@
   
 
   
-    <div class="sourcedoc-section section-element" id="8adb68099d602d5c9ddf118d8dbff7e2bc03cdec">
+    <div class="sourcedoc-section section-element" id="efd4b22ac8ee685197d0036069cd5193462b7e1b">
       
-      <h3 class="sourcedoc-section element-name">hasNext</h3>
+      <h3 class="sourcedoc-section element-name">register</h3>
       
       <p class="sourcedoc-section section-signature">
-        <code>abstract fun hasNext(): Boolean</code>
+        <code>fun register(s: String, proto: Product)</code>
       </p>
 
       
 
-      <div class="sourcedoc-section section-comments"><p>是否有下一个元素</p>
-</div>
+      <div class="sourcedoc-section section-comments"></div>
 
       
       
         
           
-<div class="sourcedoc-section section-root section-level-3" id="933bb3d2d9fcc9ab7dcca90a56aca7ffb67eb81d">
+<div class="sourcedoc-section section-root section-level-3" id="d92c513a81e175a70722f76044d24d39f57fdc09">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="e7668f505be4f84c60bf5da73888ed85e4347c89">
+        <td class="sourcedoc-section section-signature">
+          <code>s: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>String</p>
+
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="1f71c135152b916b438d3f5d8679822ab0a66b77">
+        <td class="sourcedoc-section section-signature">
+          <code>proto: Product</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>Product</p>
+
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="3591f4164484e2f86fa18f930c43773c09823ec5">
 
 
   <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
@@ -237,13 +314,12 @@
       </thead>
       <tbody>
       
-      <tr class="sourcedoc-section section-element" id="b76ff4906f33c2dd97ddd929b9662ba8cac6174c">
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
         <td class="sourcedoc-section section-signature">
-          <code>Boolean</code>
+          <code>Unit</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        <p>Boolean 返回是否有</p>
-
+        
         </td>
       </tr>
       
@@ -258,24 +334,57 @@
       
     </div>
   
-    <div class="sourcedoc-section section-element" id="fd984457b41dd8742d6c93e572e6817c8bd3d36a">
+    <div class="sourcedoc-section section-element" id="8b8dfa2c8a75645f971e5ab1df5739742c18c01b">
       
-      <h3 class="sourcedoc-section element-name">next</h3>
+      <h3 class="sourcedoc-section element-name">create</h3>
       
       <p class="sourcedoc-section section-signature">
-        <code>abstract fun next(): T</code>
+        <code>fun create(protoName: String): Product</code>
       </p>
 
       
 
-      <div class="sourcedoc-section section-comments"><p>返回下一个元素</p>
-</div>
+      <div class="sourcedoc-section section-comments"></div>
 
       
       
         
           
-<div class="sourcedoc-section section-root section-level-3" id="84f695f66b5e319871ee5f1df86c97b4caa8335c">
+<div class="sourcedoc-section section-root section-level-3" id="919ab33afdc7aa91e2334a686808a180a3a1115e">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="5409ee611f294ef6f286a3e9fdb0504df38eaf8a">
+        <td class="sourcedoc-section section-signature">
+          <code>protoName: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>Product</p>
+
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="b6ab935058da7966a693d3c047d570507c4bfad8">
 
 
   <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
@@ -290,12 +399,12 @@
       </thead>
       <tbody>
       
-      <tr class="sourcedoc-section section-element" id="c2c53d66948214258a26ca9ca845d7ac0c17f8e7">
+      <tr class="sourcedoc-section section-element" id="dd3b86d1ef21b9fb2e1edc30f524e7afb491b1ad">
         <td class="sourcedoc-section section-signature">
-          <code>T</code>
+          <code>Product</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        <p>T 下一个元素</p>
+        <p>Product</p>
 
         </td>
       </tr>
@@ -754,9 +863,26 @@
         
         <nav class="menu">
             <header class="major">
-                <h2>Iterator</h2>
+                <h2>Manager</h2>
             </header>
             <ul class="top-level">
+                
+                    
+    <li>
+        <span class="opener">Constructors</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#d4613aad3f43ed7d2b370aabe518d8516ff827ff">constructor()</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
                 
                     
     <li>
@@ -766,7 +892,7 @@
             
     
     <li>
-        <a href="#8adb68099d602d5c9ddf118d8dbff7e2bc03cdec">abstract fun hasNext(): Boolean</a>
+        <a href="#efd4b22ac8ee685197d0036069cd5193462b7e1b">fun register(s: String, proto: Product)</a>
     </li>
     
 
@@ -774,7 +900,7 @@
             
     
     <li>
-        <a href="#fd984457b41dd8742d6c93e572e6817c8bd3d36a">abstract fun next(): T</a>
+        <a href="#8b8dfa2c8a75645f971e5ab1df5739742c18c01b">fun create(protoName: String): Product</a>
     </li>
     
 

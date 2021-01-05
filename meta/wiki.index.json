@@ -3,6 +3,30 @@
   "childrenPages": {"wiki": {
     "ownKey": "wiki",
     "childrenPages": {
+      "原型模式": {
+        "ownKey": "原型模式",
+        "ownPages": [{
+          "reference": {
+            "path": "wiki",
+            "baseUrl": "https://dp.fivezha.cn",
+            "fileName": "原型模式",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://dp.fivezha.cn/wiki/原型模式"
+          },
+          "previous": {
+            "path": "wiki",
+            "baseUrl": "https://dp.fivezha.cn",
+            "fileName": "单例模式",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://dp.fivezha.cn/wiki/单例模式"
+          },
+          "description": "",
+          "title": "原型模式",
+          "content": "<h1 id=\"原型模式\"><a href=\"#原型模式\" id=\"原型模式\" class=\"anchor\"><\/a>原型模式<\/h1>\n<p>Product接口和Manager类的代码中完全没有出现其他的类名，也就意味着我们可以独立地修改Product接口和Manager类中的内容<\/p>\n<p><strong>一旦在类中使用到了别的类名，就意味着该类与其他类紧密地耦合在了一起。<\/strong><\/p>\n<h2 id=\"角色\"><a href=\"#角色\" id=\"角色\" class=\"anchor\"><\/a>角色<\/h2>\n<h3 id=\"原型\"><a href=\"#原型\" id=\"原型\" class=\"anchor\"><\/a>原型<\/h3>\n<p>Product角色负责实现复制现有实例来生成新的实例的方法。<\/p>\n<h3 id=\"具体的原型\"><a href=\"#具体的原型\" id=\"具体的原型\" class=\"anchor\"><\/a>具体的原型<\/h3>\n<p>负责实现复制现有实例并生成心得示例的方法<\/p>\n<h3 id=\"使用者\"><a href=\"#使用者\" id=\"使用者\" class=\"anchor\"><\/a>使用者<\/h3>\n<p>负责使用复制实例的方法生成新的实例<\/p>\n<h2 id=\"习题\"><a href=\"#习题\" id=\"习题\" class=\"anchor\"><\/a>习题<\/h2>\n"
+        }]
+      },
       "适配器模式": {
         "ownKey": "适配器模式",
         "ownPages": [{
@@ -102,6 +126,14 @@
             "usePrettyUrl": true,
             "link": "https://dp.fivezha.cn/wiki/单例模式"
           },
+          "next": {
+            "path": "wiki",
+            "baseUrl": "https://dp.fivezha.cn",
+            "fileName": "原型模式",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://dp.fivezha.cn/wiki/原型模式"
+          },
           "previous": {
             "path": "wiki",
             "baseUrl": "https://dp.fivezha.cn",
@@ -159,7 +191,7 @@
       },
       "description": "",
       "title": "Wiki",
-      "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"https://dp.fivezha.cn/wiki/迭代器模式\">迭代器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/适配器模式\">适配器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/模板模式\">模板模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/工厂模式\">工厂模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/单例模式\">单例模式<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+      "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"https://dp.fivezha.cn/wiki/迭代器模式\">迭代器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/适配器模式\">适配器模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/模板模式\">模板模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/工厂模式\">工厂模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/单例模式\">单例模式<\/a><\/li> \n   <li><a href=\"https://dp.fivezha.cn/wiki/原型模式\">原型模式<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
     }]
   }}
 }
