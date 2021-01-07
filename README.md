@@ -13,3 +13,4 @@
 - [x] Factory模式
 - [x] Singleton模式
 - [x] Prototype模式
+- [x] Builder模式
