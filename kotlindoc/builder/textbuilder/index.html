@@ -23,7 +23,7 @@
 
 
 
-<title>Product</title>
+<title>TextBuilder</title>
 
 
 <meta name="description" content="用kotlin实现设计模式">
@@ -64,7 +64,7 @@
 
 <!-- COMPLETE PAGE CONFIGURATION -->
 <script>
-    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://dp.fivezha.cn","fileName":"factory/framework/product","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/kotlindoc/factory/framework/product"},"description":"","title":"Product"};
+    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://dp.fivezha.cn","fileName":"builder/textbuilder","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/kotlindoc/builder/textbuilder"},"description":"","title":"TextBuilder"};
 </script>
 
 <!-- end:debug info -->
@@ -158,7 +158,7 @@
             
             
                 <section id="pageContent">
-                    <header class="major"><h2>Product</h2></header>
+                    <header class="major"><h2>TextBuilder</h2></header>
                     <article>
                         
     <!-- start:inject components -->
@@ -169,16 +169,16 @@
                     
                         <div class="sourcedoc-page orchid-sourcedoc content">
   
-<div class="sourcedoc-section section-root section-level-1" id="Product">
+<div class="sourcedoc-section section-root section-level-1" id="TextBuilder">
 
 
   
 
   
-    <div class="sourcedoc-section section-element" id="d6f34fc8a9640dd33bf316ccaf429e1fdae32fc8">
+    <div class="sourcedoc-section section-element" id="32c57da3416d2e49ce03157b74e00014a89d9746">
       
       <p class="sourcedoc-section section-signature">
-        <code>abstract class Product: Any</code>
+        <code>class TextBuilder: Builder, Any</code>
       </p>
 
       
@@ -190,8 +190,7 @@
 
       
 
-      <div class="sourcedoc-section section-comments"><p>产品抽象类</p>
-</div>
+      <div class="sourcedoc-section section-comments"></div>
 
       
       
@@ -217,8 +216,7 @@
           <code>constructor()</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        <p>产品抽象类</p>
-
+        
         </td>
       </tr>
       
@@ -239,24 +237,56 @@
   
 
   
-    <div class="sourcedoc-section section-element" id="2f050ae4601715def374812e40bab1918dad0dc0">
+    <div class="sourcedoc-section section-element" id="cf1f6fcda78cab41ff93de75cd5ea10de68453d1">
       
-      <h3 class="sourcedoc-section element-name">use</h3>
+      <h3 class="sourcedoc-section element-name">makeTitle</h3>
       
       <p class="sourcedoc-section section-signature">
-        <code>abstract fun use()</code>
+        <code>fun makeTitle(title: String)</code>
       </p>
 
       
 
-      <div class="sourcedoc-section section-comments"><p>使用函数</p>
-</div>
+      <div class="sourcedoc-section section-comments"></div>
 
       
       
         
           
-<div class="sourcedoc-section section-root section-level-3" id="aa1757ab0c5d621c9a32328764ab886e4f8365ce">
+<div class="sourcedoc-section section-root section-level-3" id="4433aa8b4b67e6572f09c0a3af0a02a5d1ee0330">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="6c54cc0ec4b16c1083e6c281425cf7f775956b96">
+        <td class="sourcedoc-section section-signature">
+          <code>title: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="e988562d68c873418ce1a2a12c67efe9d1bad6fc">
 
 
   <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
@@ -274,6 +304,276 @@
       <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
         <td class="sourcedoc-section section-signature">
           <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="40943ccddf7392c5a4eef530460e6da0c9e81d93">
+      
+      <h3 class="sourcedoc-section element-name">makeString</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun makeString(str: String)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="d0d505c5c81786cc84041396e7c5e3f906c0aceb">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="a0d8961ff7b1395d848487ab7d073df2e041ef48">
+        <td class="sourcedoc-section section-signature">
+          <code>str: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="38204089c10b973e2ef43d9aa2b8d29cfebc6d4d">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="c56268924052b89fa2f386436d7c24f6644e89c6">
+      
+      <h3 class="sourcedoc-section element-name">makeItems</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun makeItems(items: List&lt;String&gt;)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="5abb305e70d4b76987ad6fe1f80486d24e18e2fb">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b49812a255ace5b671af0d7ffeaf0636237205b6">
+        <td class="sourcedoc-section section-signature">
+          <code>items: List&lt;String&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="f6a9d0871bae1b56dc6c890cd7490531b270ef23">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="4c27f01d26d72614a93700ab579f81f1ee38be85">
+      
+      <h3 class="sourcedoc-section element-name">close</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun close()</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c7803c40b95953ea15afb26f35ad7cdc0c9370f7">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="7b63cc628cc3a1907febbcd4d562f43d057cb73b">
+      
+      <h3 class="sourcedoc-section element-name">build</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun build(): Any</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="2c5e2a1b5a2a39f60401527cb0b9239611947021">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="322444d3bb52c341f429ca0454f292dc242f315b">
+        <td class="sourcedoc-section section-signature">
+          <code>Any</code>
         </td>
         <td class="sourcedoc-section section-comments content">
         
@@ -790,7 +1090,7 @@
         
         <nav class="menu">
             <header class="major">
-                <h2>Product</h2>
+                <h2>TextBuilder</h2>
             </header>
             <ul class="top-level">
                 
@@ -819,7 +1119,39 @@
             
     
     <li>
-        <a href="#2f050ae4601715def374812e40bab1918dad0dc0">abstract fun use()</a>
+        <a href="#cf1f6fcda78cab41ff93de75cd5ea10de68453d1">fun makeTitle(title: String)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#40943ccddf7392c5a4eef530460e6da0c9e81d93">fun makeString(str: String)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#c56268924052b89fa2f386436d7c24f6644e89c6">fun makeItems(items: List&lt;String&gt;)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#4c27f01d26d72614a93700ab579f81f1ee38be85">fun close()</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#7b63cc628cc3a1907febbcd4d562f43d057cb73b">fun build(): Any</a>
     </li>
     
 

@@ -23,7 +23,7 @@
 
 
 
-<title>Product</title>
+<title>Director</title>
 
 
 <meta name="description" content="用kotlin实现设计模式">
@@ -64,7 +64,7 @@
 
 <!-- COMPLETE PAGE CONFIGURATION -->
 <script>
-    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://dp.fivezha.cn","fileName":"factory/framework/product","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/kotlindoc/factory/framework/product"},"description":"","title":"Product"};
+    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://dp.fivezha.cn","fileName":"builder/director","extension":"html","usePrettyUrl":true,"link":"https://dp.fivezha.cn/kotlindoc/builder/director"},"description":"","title":"Director"};
 </script>
 
 <!-- end:debug info -->
@@ -158,7 +158,7 @@
             
             
                 <section id="pageContent">
-                    <header class="major"><h2>Product</h2></header>
+                    <header class="major"><h2>Director</h2></header>
                     <article>
                         
     <!-- start:inject components -->
@@ -169,16 +169,16 @@
                     
                         <div class="sourcedoc-page orchid-sourcedoc content">
   
-<div class="sourcedoc-section section-root section-level-1" id="Product">
+<div class="sourcedoc-section section-root section-level-1" id="Director">
 
 
   
 
   
-    <div class="sourcedoc-section section-element" id="d6f34fc8a9640dd33bf316ccaf429e1fdae32fc8">
+    <div class="sourcedoc-section section-element" id="727b1922e926c09d0c709724332f6a8b52cb5c8d">
       
       <p class="sourcedoc-section section-signature">
-        <code>abstract class Product: Any</code>
+        <code>class Director: Any</code>
       </p>
 
       
@@ -190,7 +190,8 @@
 
       
 
-      <div class="sourcedoc-section section-comments"><p>产品抽象类</p>
+      <div class="sourcedoc-section section-comments"><p>监工类
+主要根据builder进行包装</p>
 </div>
 
       
@@ -200,7 +201,31 @@
 <div class="sourcedoc-section section-root section-level-2" id="constructors">
 
 
-  <p class="sourcedoc-section section-name"><strong>Constructors</strong></p>
+  
+    <h2 class="sourcedoc-section section-name">Constructors</h2>
+  
+
+  
+    <div class="sourcedoc-section section-element" id="7a7e803efec9d37564d825443f8ebde7e38b9830">
+      
+      <h3 class="sourcedoc-section element-name">&lt;init&gt;</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>constructor(builder: Builder)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="a61f3ef3abd2d2056232625b37b1d182482e0d8d">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
 
   <div class="table-container">
     <table class="table is-fullwidth is-bordered">
@@ -212,13 +237,12 @@
       </thead>
       <tbody>
       
-      <tr class="sourcedoc-section section-element" id="d4613aad3f43ed7d2b370aabe518d8516ff827ff">
+      <tr class="sourcedoc-section section-element" id="40b29e32745a1771eb98d60b10e06869a3fe6c03">
         <td class="sourcedoc-section section-signature">
-          <code>constructor()</code>
+          <code>builder: Builder</code>
         </td>
         <td class="sourcedoc-section section-comments content">
-        <p>产品抽象类</p>
-
+        
         </td>
       </tr>
       
@@ -226,6 +250,13 @@
     </table>
   </div>
 
+
+</div>
+
+        
+      
+    </div>
+  
 
 </div>
 
@@ -239,24 +270,23 @@
   
 
   
-    <div class="sourcedoc-section section-element" id="2f050ae4601715def374812e40bab1918dad0dc0">
+    <div class="sourcedoc-section section-element" id="ca0453324a2a201a4838b07414b5f7ac1f35e3ff">
       
-      <h3 class="sourcedoc-section element-name">use</h3>
+      <h3 class="sourcedoc-section element-name">construct</h3>
       
       <p class="sourcedoc-section section-signature">
-        <code>abstract fun use()</code>
+        <code>fun construct(): Builder</code>
       </p>
 
       
 
-      <div class="sourcedoc-section section-comments"><p>使用函数</p>
-</div>
+      <div class="sourcedoc-section section-comments"></div>
 
       
       
         
           
-<div class="sourcedoc-section section-root section-level-3" id="aa1757ab0c5d621c9a32328764ab886e4f8365ce">
+<div class="sourcedoc-section section-root section-level-3" id="ca8f4f249c85174aded2abc275d7741ac7c7269b">
 
 
   <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
@@ -271,9 +301,9 @@
       </thead>
       <tbody>
       
-      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+      <tr class="sourcedoc-section section-element" id="4759bf14d7a511508e86c343c934894b6e8db533">
         <td class="sourcedoc-section section-signature">
-          <code>Unit</code>
+          <code>Builder</code>
         </td>
         <td class="sourcedoc-section section-comments content">
         
@@ -790,7 +820,7 @@
         
         <nav class="menu">
             <header class="major">
-                <h2>Product</h2>
+                <h2>Director</h2>
             </header>
             <ul class="top-level">
                 
@@ -802,7 +832,7 @@
             
     
     <li>
-        <a href="#d4613aad3f43ed7d2b370aabe518d8516ff827ff">constructor()</a>
+        <a href="#7a7e803efec9d37564d825443f8ebde7e38b9830">constructor(builder: Builder)</a>
     </li>
     
 
@@ -819,7 +849,7 @@
             
     
     <li>
-        <a href="#2f050ae4601715def374812e40bab1918dad0dc0">abstract fun use()</a>
+        <a href="#ca0453324a2a201a4838b07414b5f7ac1f35e3ff">fun construct(): Builder</a>
     </li>
     
 
