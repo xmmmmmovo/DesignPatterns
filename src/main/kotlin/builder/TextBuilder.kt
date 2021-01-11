@@ -4,6 +4,11 @@
 
 package builder
 
+/**
+ * 文本builder
+ * @author    xmmmmmovo
+ * @property buf StringBuffer 文本buffer
+ */
 class TextBuilder : Builder {
     private val buf = StringBuffer()
 

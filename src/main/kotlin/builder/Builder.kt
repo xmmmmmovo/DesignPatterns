@@ -4,6 +4,10 @@
 
 package builder
 
+/**
+ * 建造者抽象接口
+ * @author xmmmmmovo
+ */
 interface Builder {
     fun makeTitle(title: String)
     fun makeString(str: String)

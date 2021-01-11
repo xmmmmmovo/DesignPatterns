@@ -8,6 +8,12 @@ import java.io.FileWriter
 import java.io.IOException
 import java.io.PrintWriter
 
+/**
+ * html建造类
+ * @author xmmmmmovo
+ * @property filename String 文件名
+ * @property writer PrintWriter 文件Writer
+ */
 class HTMLBuilder : Builder {
     private lateinit var filename: String
     private lateinit var writer: PrintWriter
