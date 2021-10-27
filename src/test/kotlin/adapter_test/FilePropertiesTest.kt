@@ -32,13 +32,13 @@ internal class FilePropertiesTest {
 
     @Test
     fun loadGetAndSave() {
-        val filePath = javaClass.getResource("/file.txt").file
+        val filePath = javaClass.getResource("/file.txt")!!.file
         pIO.readFromFile(filePath)
         assertEquals(true, pIO.setValue("year", "2004"))
         assertEquals(true, pIO.setValue("month", "4"))
         assertEquals(true, pIO.setValue("day", "21"))
         assertEquals("2004", pIO.getValue("year"))
-        val rootPath = javaClass.getResource("/").path
+        val rootPath = javaClass.getResource("/")!!.path
         pIO.writeToFile(rootPath + "out.txt")
     }
 

@@ -12,7 +12,7 @@ import java.util.concurrent.ConcurrentHashMap
  * @constructor 私有构造函数 只能内部创建
  */
 class Triple private constructor(val instanceId: Int) {
-
+    
     companion object {
         /**
          * 单例表
