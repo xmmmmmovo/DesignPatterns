@@ -14,3 +14,4 @@
 - [x] Singleton模式
 - [x] Prototype模式
 - [x] Builder模式
+- [x] Abstract Factory模式

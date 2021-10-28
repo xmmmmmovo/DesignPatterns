@@ -2,7 +2,7 @@
  * Copyright (c) xmmmmmovo 2021.
  */
 
-package abstract_factory
+package abstract_factory_test
 
 import abstract_factory.factory.Factory
 import abstract_factory.factory.Link
