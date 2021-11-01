@@ -4,4 +4,3 @@
 
 package Interpreter.core
 
-class ParseException(msg: String) : Exception(msg)

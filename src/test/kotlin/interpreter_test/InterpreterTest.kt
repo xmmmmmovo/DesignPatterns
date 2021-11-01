@@ -46,9 +46,4 @@ class InterpreterTest {
             close()
         }
     }
-
-//    @Test
-//    fun GUITest() {
-//        MainGUI()
-//    }
 }

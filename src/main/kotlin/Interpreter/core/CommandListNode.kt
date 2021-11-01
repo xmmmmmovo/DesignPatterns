@@ -4,6 +4,7 @@
 
 package Interpreter.core
 
+
 class CommandListNode : Node {
     private val list = ArrayList<CommandNode>()
     override fun parse(context: Context) {
