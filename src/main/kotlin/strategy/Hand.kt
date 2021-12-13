@@ -15,7 +15,7 @@ class Hand(private val t: HandType) {
         val hands = arrayOf(Hand(HandType.ROCK), Hand(HandType.SCISSORS), Hand(HandType.PAPER))
         val names = arrayOf("石头", "剪刀", "布")
 
-        fun getHand(t: HandType) = hands[t.ordinal]
+        fun getHand(t: Int) = hands[t]
     }
 
     fun isStrongerThan(hand: Hand): Boolean {

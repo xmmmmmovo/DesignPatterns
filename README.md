@@ -15,6 +15,7 @@
 - [x] Prototype模式
 - [x] Builder模式
 - [x] Abstract Factory模式
+- [ ] Bridge模式
 - [ ] strategy模式
 - [ ] facade模式
 - [x] Interpreter模式

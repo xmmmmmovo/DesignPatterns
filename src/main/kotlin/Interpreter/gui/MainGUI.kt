@@ -11,9 +11,8 @@ class MainGUI() : JFrame() {
         this.layout = null
         this.setSize(520, 520)
         this.setLocationRelativeTo(null)
-        val painter = Painter()
-        painter.setBounds(0, 0, 520, 520)
-        this.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
+        val painter = Painter(520,520)
+        this.defaultCloseOperation = EXIT_ON_CLOSE
         this.isVisible = true
         this.contentPane = painter
         while (true) {
